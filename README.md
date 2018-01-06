@@ -1,14 +1,12 @@
-# sample-reagent
+If you dont use emacs, the in a terminal do:
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+```clojure
+    $ lein figwheel
+      (... cruft ...)
+    dev:cljs.user=> (in-ns 'sample-reagent.core)
+      nil
+    dev:sample-reagent.core!{:conn 2}=> (load "core")
+      nil
+    dev:sample-reagent.core!{:conn 2}=> (swap! app-state assoc :text "a new string...")
+      {:text "a new string..."}
+```
