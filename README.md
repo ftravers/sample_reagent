@@ -1,4 +1,4 @@
-If you dont use emacs, the in a terminal do:
+If you dont use emacs, then in a terminal do:
 
 ```clojure
     $ lein figwheel
