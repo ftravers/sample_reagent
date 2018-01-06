@@ -33,7 +33,8 @@
  :profiles {:dev
              {:dependencies [[binaryage/devtools "0.9.4"]
                              [figwheel-sidecar "0.5.13"]
-                             [com.cemerick/piggieback "0.2.2"]]
+                             [com.cemerick/piggieback "0.2.2"]
+                             [org.clojure/tools.nrepl "0.2.13"]]
 
               :plugins [[cider/cider-nrepl "0.16.0-SNAPSHOT"]]
               :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
