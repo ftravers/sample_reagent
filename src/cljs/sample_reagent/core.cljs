@@ -1,35 +1,56 @@
 (ns sample-reagent.core
   (:require
-   [re-com.core :as recom]
    [reagent.core :as reagent]))
 
-(defn some-component [ratom]
-  [:div (:text @ratom)])
+(defn render-up [state]
+  (if (not state)
+    [:div {:class-name "up-down-option-none"}]
+    [:div {:class-name "up-down-option"} (:text state)]))
 
-(defn some1 []
-  [:div "abc"])
+(def render-down render-up)
 
-(defn my-button []
-  [recom/h-box
-   :gap "10px"
-   :justify :around
-   :children
-   [[recom/button
-     :class "btn-error"
-     :tooltip "hello there "
-     :label "def"]
-    [recom/button
-     :class "btn-error"
-     :tooltip "hello there "
-     :label "abc"]]])
+(defn render-left [state]
+  (if (not state)
+    [:div {:class-name "left-option-none"}]
+    [:div {:class-name "left-option"} (:text state)]))
+
+(defn render-right [state]
+  (if (not state)
+    [:div {:class-name "right-option-none"}]
+    [:div {:class-name "right-option"} (:text state)]))
+
+(defn render-text [text] [:p text])
+
+(defn render-scene [state]
+  [:div
+   [render-up (-> @state :first-message :up)]
+   [render-left (-> @state :first-message :left)]
+   [render-right (-> @state :first-message :right)]
+
+   [:div {:class-name "card"}
+    [:div {:class-name "text"}
+
+     (map (fn [txt] [:p txt]) (-> @state :first-message :text))
+     ]]
+
+   [render-down (-> @state :first-message :down)]])
 
 ;; (reagent/render-to-static-markup some1)
 
 (defonce app-state
-  (reagent/atom {:text "Hello, what is your name??"}))
+  (reagent/atom
+   {:first-message
+    {:text ["Serenity:"
+            "Communications repaired."
+            "Stable. In stasus"
+            "Simone: Stable. In stasus."
+            "Will: No heartbeat."
+            "Shiobhan: Stable, In stasus."]
+     :right {:text "Command: Reanimate crew."
+             :next :adrenaline-injected}}}))
 
 (defn on-js-reload []
-  (reagent/render [my-button]
+  (reagent/render [render-scene app-state]
             (.getElementById js/document "app")))
 
 (defn ^:export main []
