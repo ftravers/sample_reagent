@@ -22,7 +22,18 @@
 (defn render-text [text] [:p text])
 
 (defn render-scene [state]
-  [:div
+  (reagent/create-class
+    {:component-did-mount
+     #(js/key "right" (fn []
+                       (.log js/console "Right!")
+                       (swap! state assoc :first-message {:text ["Command has been sent."
+                        "Waiting for response."]
+                                                          :right {:text "Wait."
+                                                                  :next :day-1.5
+                                                                  :message "wait"}})))
+     :component-will-unmount #(.unbind js/key ("right"))
+                         :reagent-render (fn []
+    [:div
    [render-up (-> @state :first-message :up)]
    [render-left (-> @state :first-message :left)]
    [render-right (-> @state :first-message :right)]
@@ -34,6 +45,7 @@
      ]]
 
    [render-down (-> @state :first-message :down)]])
+                         }))
 
 ;; (reagent/render-to-static-markup some1)
 
