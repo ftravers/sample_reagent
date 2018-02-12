@@ -16,7 +16,7 @@
   :figwheel {:css-dirs ["resources/public/css"]}
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled" :target-path]
-  
+
   :cljsbuild
   {:builds
    [{:id "dev"
@@ -28,12 +28,13 @@
                 :output-to "resources/public/js/compiled/sample_reagent.js"
                 :output-dir "resources/public/js/compiled/out"
                 :source-map-timestamp true
-                :preloads [devtools.preload]}}]}
+                :preloads [devtools.preload]
+                :externs ["keymaster-externs.js"]}}]}
 
  :profiles {:dev
              {:dependencies [[binaryage/devtools "0.9.4"]
                              [figwheel-sidecar "0.5.13"]
                              [com.cemerick/piggieback "0.2.2"]
                              [org.clojure/tools.nrepl "0.2.13"]]
-              
+
               :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
