@@ -6,7 +6,8 @@
 
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [reagent "0.8.1"]
-                 ;; [re-com "0.8.0"]
+                 [re-com "2.1.0"]
+                 [org.clojure/core.async "0.4.474"]
                  [org.clojure/clojurescript "1.10.339"]
                  ;; [rum "0.11.2"]
                  ]
