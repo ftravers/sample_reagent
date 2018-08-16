@@ -1,8 +1,18 @@
 (ns sample-reagent.core
   (:require
-   [reagent.core :as reagent]))
+   [reagent.core :as reagent]
+   ;; [rum.core :as rum]
+   ))
+
+;; (rum/defc label [text]
+;;   [:div {:class "label"} text])
 
 (def person (reagent/atom "Rod"))
+
+(comment
+  (reset! person "blah") 
+  )
+
 
 (defn get-name []
   (->> "name-box"
@@ -12,7 +22,7 @@
 (defn change-name-button []
   [:button
    {:on-click #(reset! person (get-name))}
-   "Change the Name!"])
+   "Change Name!"])
 
 (defn input-box []
   [:input {:id "name-box"}])
@@ -24,6 +34,14 @@
    @person
    [:br]
    [change-name-button]])
+
+;; (defn mount-rum []
+;;   (rum/mount (label "abc123") js/document.body))
+
+(defn mount-reagent []
+  (reagent/render
+   [body]
+   (.getElementById js/document "app")))
 
 (defn on-js-reload []
   (reagent/render
