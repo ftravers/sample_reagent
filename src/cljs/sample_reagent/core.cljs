@@ -11,18 +11,6 @@
      (re-find (re-pattern (.toLowerCase typed-text))
               (.toLowerCase curr-elm)))
    full-list))
-(assert (= ["abc"] 
-           (get-typeahead-sublist ["abc" "def"] "a")))
-(assert (= ["def"] 
-           (get-typeahead-sublist ["abc" "def"] "e")))
-
-(defn handle-type-ahead-on-change
-  [all-typeahead-values-list value-ratom]
-  (fn [event] 
-    (let [element (-> event .-target)
-          input-elm-val (-> element .-value)]
-      
-      (reset! value-ratom input-elm-val))))
 
 (defn type-ahead-options [all-options typed-text]
   (let [sub-options
@@ -32,22 +20,15 @@
       [:option {:value option}])))
 
 (defn body []
-  (let [visible-options (reagent/atom [])
-        input-value (reagent/atom "")]
+  (let [input-value (reagent/atom "")]
     (fn []
       [:div
        [:input
-        ;; @typed-text
         {:type "text"
-         :id "ajax"
          :list "json-datalist"
-         :placeholder "e.g. datalist"
+         :placeholder "enter a material..."
          :value @input-value
-         :on-change
-         (handle-type-ahead-on-change
-          all-typeahead-values
-          input-value)
-         }]
+         :on-change #(reset! input-value (-> % .-target .-value))}]
        [:datalist {:id "json-datalist"}
         (type-ahead-options all-typeahead-values @input-value)]])))
 
