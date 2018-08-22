@@ -17,12 +17,11 @@
            (get-typeahead-sublist ["abc" "def"] "e")))
 
 (defn handle-type-ahead-on-change
-  [all-typeahead-values-list value-ratom datalist-id]
+  [all-typeahead-values-list value-ratom]
   (fn [event] 
     (let [element (-> event .-target)
-          input-elm-val (-> element .-value)
-          datalist-elm (.getElementById js/document datalist-id)]
-      (.log js/console (str element ". value: " input-elm-val))
+          input-elm-val (-> element .-value)]
+      
       (reset! value-ratom input-elm-val))))
 
 (defn type-ahead-options [all-options typed-text]
@@ -45,7 +44,9 @@
          :placeholder "e.g. datalist"
          :value @input-value
          :on-change
-         (handle-type-ahead-on-change all-typeahead-values input-value "json-datalist")
+         (handle-type-ahead-on-change
+          all-typeahead-values
+          input-value)
          }]
        [:datalist {:id "json-datalist"}
         (type-ahead-options all-typeahead-values @input-value)]])))
