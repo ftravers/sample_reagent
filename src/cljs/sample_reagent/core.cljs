@@ -1,5 +1,6 @@
 (ns sample-reagent.core
   (:require
+   [sample-reagent.highlight-letters]
    [reagent.core :as reagent]))
 
 (def all-typeahead-values
@@ -46,9 +47,3 @@
   (on-js-reload))
 
 (on-js-reload)
-
-
-
-
-
-
