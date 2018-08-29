@@ -9,8 +9,8 @@
                  [re-com "2.1.0"]
                  [org.clojure/core.async "0.4.474"]
                  [org.clojure/clojurescript "1.10.339"]
-                 ;; [rum "0.11.2"]
-                 ]
+                 [devcards "0.2.5"]
+                 [com.bhauman/cljs-test-display "0.1.1"]]
 
   :plugins [[lein-cljsbuild "1.1.7"  :exclusions [[org.clojure/clojure]]]
             ;; [nrepl/drawbridge "0.1.3"]

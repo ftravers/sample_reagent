@@ -1,6 +1,6 @@
 (ns sample-reagent.core
   (:require
-   [sample-reagent.highlight-letters]
+   [sample-reagent.highlight-letters :as hl]
    [reagent.core :as reagent]))
 
 (def all-typeahead-values
@@ -9,12 +9,12 @@
 (declare get-typeahead-sublist type-ahead-options
          data-list input-elem)
 
-(defn body []
+(defn type-ahead [get-typeahead-sublist-fn]
   (let [input-value (reagent/atom "")]
     (fn []
       [:div
        [input-elem input-value]
-       [data-list input-value]])))
+       [data-list input-value get-typeahead-sublist-fn]])))
 
 (defn input-elem [input-value]
   [:input {:type "text"
@@ -23,27 +23,35 @@
            :value @input-value
            :on-change #(reset! input-value (-> % .-target .-value))}])
 
-(defn data-list []
+(defn data-list [get-typeahead-sublist-fn]
   (fn [input-value]
     [:datalist {:id "json-datalist"}
-     (type-ahead-options all-typeahead-values @input-value)]))
+     (type-ahead-options @input-value get-typeahead-sublist-fn)]))
 
-(defn type-ahead-options [all-options typed-text]
+(defn type-ahead-options [typed-text get-typeahead-sublist-fn]
   (for [option
-        (get-typeahead-sublist all-options typed-text)]
+        (get-typeahead-sublist-fn typed-text)]
     ^{:key option} [:option {:value option}]))
 
-(defn get-typeahead-sublist [full-list typed-text]
+(defn get-typeahead-sublist-fn [typed-text]
+  "Normally we'd pass the typed-text to a backend service, here we
+  just use the sample data from the local variable
+  all-typeahead-values"
   (filterv #(re-find (re-pattern (.toLowerCase typed-text))
                      (.toLowerCase %))
-           full-list))
+           all-typeahead-values))
 
 (defn on-js-reload []
   (reagent/render
-   [body]
+   [type-ahead get-typeahead-sublist-fn]
    (.getElementById js/document "app")))
 
 (defn ^:export main []
   (on-js-reload))
 
 (on-js-reload)
+
+;; ---------testing
+
+ (comment
+  (type-ahead-options "i"))
