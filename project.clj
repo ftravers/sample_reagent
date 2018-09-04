@@ -12,17 +12,22 @@
                  ]
 
   :plugins [[lein-cljsbuild "1.1.7"  :exclusions [[org.clojure/clojure]]]
-            [nrepl/drawbridge "0.1.3"]
-            [lein-figwheel "0.5.16"]]
+            ;; [nrepl/drawbridge "0.1.3"]
+            ;; [lein-figwheel "0.5.16"]
+            ]
 
   :profiles {:dev
              {:dependencies [[binaryage/devtools "0.9.4"]
                              [figwheel "0.5.16"]
                              [figwheel-sidecar "0.5.16"]
-                             [cider/piggieback "0.3.8"]
-                             [org.clojure/tools.nrepl "0.2.13"]]
+                             ;; [cider/piggieback "0.3.8"]
+                             ;; [org.clojure/tools.nrepl "0.2.13"]
+                             ]
               
-              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}}}
+              ;; :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
+              }}
+
+  :repl {:plugins [[cider/cider-nrepl "0.18.0"]]}
 
   :source-paths ["src/cljs"]
 
