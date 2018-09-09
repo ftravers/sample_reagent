@@ -10,8 +10,7 @@
 (def person (reagent/atom "Rod"))
 
 (comment
-  (reset! person "blah") 
-  )
+  (reset! person "blatttth"))
 
 
 (defn get-name []

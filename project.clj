@@ -13,7 +13,7 @@
 
   :plugins [[lein-cljsbuild "1.1.7"  :exclusions [[org.clojure/clojure]]]
             ;; [nrepl/drawbridge "0.1.3"]
-            ;; [lein-figwheel "0.5.16"]
+            [lein-figwheel "0.5.16"]
             ]
 
   :profiles {:dev
@@ -24,7 +24,7 @@
                              ;; [org.clojure/tools.nrepl "0.2.13"]
                              ]
               
-              ;; :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
+              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
               }}
 
   :repl {:plugins [[cider/cider-nrepl "0.18.0"]]}

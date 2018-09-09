@@ -1,0 +1,6 @@
+{:main sample-reagent.core
+                :asset-path "js/compiled/out"
+                :output-to "resources/public/js/compiled/sample_reagent.js"
+                :output-dir "resources/public/js/compiled/out"
+                :source-map-timestamp true
+ :preloads [devtools.preload]}
