@@ -12,10 +12,22 @@
              (.toLowerCase %))
    ["wood" "metal" "concrete" "glass" "cloth" "rubber"]))
 
+(defn typeahead-results-2 [typed-text]
+  "Normally we'd pass the typed-text to a backend service, here we
+  just use the sample data from the local variable
+  all-typeahead-values"
+  (filterv
+   #(re-find (re-pattern (.toLowerCase typed-text))
+             (.toLowerCase %))
+   ["fenton" "bob" "jerry" "fred"]))
+
 (defn on-js-reload []
   (reagent/render
-   [rc/type-ahead {:typeahead-fn typeahead-results
-                   :placeholder "enter a materiallo..."}]
+   [:div
+    [rc/type-ahead {:typeahead-fn typeahead-results
+                    :placeholder "enter a materiallo..."}]
+    [rc/type-ahead {:typeahead-fn typeahead-results-2
+                    :placeholder "enter a name..."}]]
    (.getElementById js/document "app")))
 
 (defn ^:export main []
