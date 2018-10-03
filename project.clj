@@ -21,14 +21,16 @@
              {:dependencies [[binaryage/devtools "0.9.4"]
                              [figwheel "0.5.16"]
                              [figwheel-sidecar "0.5.16"]
-                             ;; [cider/piggieback "0.3.8"]
-                             ;; [org.clojure/tools.nrepl "0.2.13"]
-                             ]
-              
-              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
-              }}
+                             [cider/piggieback "0.3.8"]
+                             [org.clojure/tools.nrepl "0.2.13"]
+                             [im.chit/vinyasa "0.4.7"]]
+              :injections
+              [(require '[vinyasa.inject :as inject])
+               (inject/in ;; the default injected namespace is `.`
+                [clojure.pprint pprint]
+                [clojure.repl apropos dir dir-fn doc find-doc pst root-cause source])]
 
-  :repl {:plugins [[cider/cider-nrepl "0.18.0"]]}
+              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}}}
 
   :source-paths ["src/cljs"]
 
