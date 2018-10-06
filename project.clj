@@ -10,7 +10,10 @@
                  [org.clojure/core.async "0.4.474"]
                  [org.clojure/clojurescript "1.10.339"]
                  [devcards "0.2.5"]
-                 [com.bhauman/cljs-test-display "0.1.1"]]
+                 [com.bhauman/cljs-test-display "0.1.1"]
+                 [com.datomic/datomic-pro "0.9.5561.62" :exclusions [com.google.guava/guava]]
+                 [com.grammarly/omniconf "0.3.2"]
+                 [integrant "0.7.0"]]
 
   :plugins [[lein-cljsbuild "1.1.7"  :exclusions [[org.clojure/clojure]]]
             ;; [nrepl/drawbridge "0.1.3"]
