@@ -36,3 +36,11 @@
                [?e :user/email]
                [?e :user/age]]
              db))
+
+(defn mymap [f xs]
+  (reduce #(conj %1 (f %2)) [] xs))
+
+(defn myfilter [f xs]
+  (reduce #(if (f %2) (conj %1 %2) %1)
+          []
+          xs))
