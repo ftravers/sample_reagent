@@ -27,6 +27,8 @@
                              [cider/piggieback "0.3.8"]
                              [org.clojure/tools.nrepl "0.2.13"]
                              [im.chit/vinyasa "0.4.7"]]
+
+              :source-paths ["src/cljs" "src/clj"]
               :injections
               [(require '[vinyasa.inject :as inject])
                (inject/in ;; the default injected namespace is `.`
@@ -35,7 +37,7 @@
 
               :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}}}
 
-  :source-paths ["src/cljs"]
+  :source-paths ["src/cljs" "src/clj"]
 
   :figwheel {:css-dirs ["resources/public/css"]}
 
@@ -44,7 +46,7 @@
   :cljsbuild
   {:builds
    [{:id "dev"
-     :source-paths ["src/cljs" "test/cljs"]
+     :source-paths ["src/cljs" "test/cljs" "src/clj"]
      :figwheel {:on-jsload "sample-reagent.core/on-js-reload"
                 :open-urls ["http://localhost:3449/index.html"]}
      :compiler {:main sample-reagent.core

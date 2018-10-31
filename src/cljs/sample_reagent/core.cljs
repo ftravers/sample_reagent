@@ -24,10 +24,12 @@
 (defn on-js-reload []
   (reagent/render
    [:div
+    [:div "fenton"]
     [rc/type-ahead {:typeahead-fn typeahead-results
-                    :placeholder "enter a materiallo..."}]
-    [rc/type-ahead {:typeahead-fn typeahead-results-2
-                    :placeholder "enter a name..."}]]
+                    :placeholder "enter a material ..."}]
+    ;; [rc/type-ahead {:typeahead-fn typeahead-results-2
+    ;;                 :placeholder "enter a name....."}]
+    ]
    (.getElementById js/document "app")))
 
 (defn ^:export main []
