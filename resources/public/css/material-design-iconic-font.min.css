@@ -1,0 +1,1163 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-Z0JAar9+DkI1NjGVdZr3GivARUgJtA0o2eHlTv7Ou2gshR5awWVf8QGsq11Ns9ZxQLEs+G5/SuARmvpOLMzulw==" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-95aff0b550d3fe338b645a4deebdcb1b.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-h5cEqWTuBT7ANPGSQLt1mH+ozRnf2uZHIo5hzaBUEaFGGVZkq/aXrTxFNXPfCm9ir2ztHtlW4AAMl2IxBKc1pQ==" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-e6bb18b320358b77abe040d2eb46b547.css" />
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>re-com/material-design-iconic-font.min.css at master · Day8/re-com</title>
+    <meta name="description" content="A ClojureScript library of reusable components for Reagent">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/3033386?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Day8/re-com" /><meta property="og:url" content="https://github.com/Day8/re-com" /><meta property="og:description" content="re-com - A ClojureScript library of reusable components for Reagent" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzA3MDA0NDk5OjdiMjE1NjVlZjcwZjcxNzZhZjBiYzdhMDRhNTBjMDk3YTI5NGFkZThiY2NlOTkwNTU3NTcwMjc5NTkzMjc2ZDY=--d837dc79c71b35fdbc764a7b2a2c7b08974bf7e4">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="request-id" content="A22A:4AB8:3FEB3CD:6FF959B:5B75E713" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="A22A:4AB8:3FEB3CD:6FF959B:5B75E713" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="443507" /><meta name="octolytics-actor-login" content="ftravers" /><meta name="octolytics-actor-hash" content="c7aa2134d5af2018178889a0182d9e98fe4dbe8e5b8c7c3732f5ad39a9c1670a" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+
+
+  <meta class="js-ga-set" name="userId" content="c2f26c67da134ca52cd603a731fab222" %>
+
+<meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="ftravers">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MTZlZTk2ZmE4NWE4YThkNjVhNWEyZTg0YmExNzA5ZDQ3YjhmODVlMDYzZTNiNWQ2MGI5OGJjYWI5OThmZDg2OHx7InJlbW90ZV9hZGRyZXNzIjoiMTk5LjcuMTU5LjkiLCJyZXF1ZXN0X2lkIjoiQTIyQTo0QUI4OjNGRUIzQ0Q6NkZGOTU5Qjo1Qjc1RTcxMyIsInRpbWVzdGFtcCI6MTUzNDQ1MzU1OSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_DOCKERFILE_CI_CTA,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,MARKETPLACE_RETARGETING">
+
+  <meta name="html-safe-nonce" content="31d4bd121e550a516df2c02e8c26c96a30725b11">
+
+  <meta http-equiv="x-pjax-version" content="60e4fa41ffbcbd51f51925bcc7ea1d9f">
+  
+
+      <link href="https://github.com/Day8/re-com/commits/master.atom" rel="alternate" title="Recent Commits to re-com:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/Day8/re-com git https://github.com/Day8/re-com.git">
+
+  <meta name="octolytics-dimension-user_id" content="3033386" /><meta name="octolytics-dimension-user_login" content="Day8" /><meta name="octolytics-dimension-repository_id" content="21813295" /><meta name="octolytics-dimension-repository_nwo" content="Day8/re-com" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="21813295" /><meta name="octolytics-dimension-repository_network_root_nwo" content="Day8/re-com" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/Day8/re-com/blob/master/run/resources/public/assets/css/material-design-iconic-font.min.css" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+<link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-in env-production page-blob">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<header class="Header  f5" role="banner">
+  <div class="d-flex flex-justify-between px-3 container-lg">
+    <div class="d-flex flex-justify-between ">
+      <div class="">
+        <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+
+      </div>
+
+    </div>
+
+    <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+      <div class="d-flex">
+            <div class="">
+              <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to"
+  role="search combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="true"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="21813295" data-scoped-search-url="/Day8/re-com/search" data-unscoped-search-url="/search" action="/Day8/re-com/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text"
+          class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search or jump to…"
+          data-unscoped-placeholder="Search or jump to…"
+          data-scoped-placeholder="Search or jump to…"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=USXKCI5sRymMW5wOkqvVdT+GU9y3aopDYvKed98nWFZl0nVCopyhus80+5ecwN15CWAQOGgnv3L0cziUUDCesw=="
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://assets-cdn.github.com/images/search-shortcut-hint.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item">
+                  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" href="">
+                    <div class="jump-to-octicon js-jump-to-octicon mr-2 text-center d-none"></div>
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar" alt="" aria-label="Team" src="" width="28" height="28">
+
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+                      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+                        In this repository
+                      </span>
+                      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+                        All GitHub
+                      </span>
+                      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+                <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-repo-octicon-template" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-project-octicon-template" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+                <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-search-octicon-template" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"/></svg>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li>
+              </ul>
+
+              <ul id="jump-to-results" class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container" >
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <ul class="d-flex pl-2 flex-items-center text-bold list-style-none" role="navigation">
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g p" data-ga-click="Header, click, Nav menu - item:pulls context:user" aria-label="Pull requests you created" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls" href="/pulls">
+                Pull requests
+</a>            </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-hotkey="g i" data-ga-click="Header, click, Nav menu - item:issues context:user" aria-label="Issues you created" data-selected-links="/issues /issues/assigned /issues/mentioned /issues" href="/issues">
+                Issues
+</a>            </li>
+              <li>
+                <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
+                   Marketplace
+</a>              </li>
+            <li>
+              <a class="js-selected-navigation-item HeaderNavlink px-2" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
+                Explore
+</a>            </li>
+          </ul>
+      </div>
+
+      <div class="d-flex">
+        
+<ul class="user-nav d-flex flex-items-center list-style-none" id="user-links">
+  <li class="dropdown">
+    <span class="d-inline-block  px-2">
+      
+    <a aria-label="You have unread notifications" class="notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:unread" data-channel="notification-changed:443507" href="/notifications">
+        <span class="mail-status unread"></span>
+        <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.99 11.991v1H0v-1l.73-.58c.769-.769.809-2.547 1.189-4.416.77-3.767 4.077-4.996 4.077-4.996 0-.55.45-1 .999-1 .55 0 1 .45 1 1 0 0 3.387 1.229 4.156 4.996.38 1.879.42 3.657 1.19 4.417l.659.58h-.01zM6.995 15.99c1.11 0 1.999-.89 1.999-1.999H4.996c0 1.11.89 1.999 1.999 1.999z"/></svg>
+</a>
+    </span>
+  </li>
+
+  <li class="dropdown">
+    <details class="details-overlay details-reset d-flex px-2 flex-items-center">
+      <summary class="HeaderNavlink"
+         aria-label="Create new…"
+         data-ga-click="Header, create new, icon:add">
+        <svg class="octicon octicon-plus float-left mr-1 mt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg>
+        <span class="dropdown-caret mt-1"></span>
+      </summary>
+      <details-menu class="dropdown-menu dropdown-menu-sw">
+        
+<a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a role="menuitem" class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="Day8/re-com">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="/Day8/re-com/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </details-menu>
+    </details>
+  </li>
+
+  <li class="dropdown">
+
+    <details class="details-overlay details-reset d-flex pl-2 flex-items-center">
+      <summary class="HeaderNavlink name mt-1"
+        aria-label="View profile and more"
+        data-ga-click="Header, show menu, icon:avatar">
+        <img alt="@ftravers" class="avatar float-left mr-1" src="https://avatars0.githubusercontent.com/u/443507?s=40&amp;v=4" height="20" width="20">
+        <span class="dropdown-caret"></span>
+      </summary>
+      <details-menu class="dropdown-menu dropdown-menu-sw">
+        <ul>
+          <li class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/ftravers" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">ftravers</strong></a></li>
+          <li class="dropdown-divider"></li>
+          <li><a role="menuitem" class="dropdown-item" href="/ftravers" data-ga-click="Header, go to profile, text:your profile">Your profile</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/ftravers?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/ftravers?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a></li>
+            <li><a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
+          <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
+          <li>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="jxggF7BetvLf/upgzUJKeptkW9Rpvj9gbeeibT/tVKyxH7fzOOY2E9Wog+59C4kzpti8U5QQ5YAUKu7JO+CScQ==" />
+              <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
+                Sign out
+              </button>
+</form>          </li>
+        </ul>
+      </details-menu>
+    </details>
+  </li>
+</ul>
+
+
+
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TFQg9tdXpIiSb3KUFaarT4mLTgS/I87rz/qinCXDk+NyU7cSX+8kaZg5Gxql72gGtDepg0KNFAu2N+44Ic5VPg==" />
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </div>
+</header>
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="hKxhkQm1MBqsEb4vMe9mzG7BiM1GUpXyIur1zTXWhI20dE12k8gseEPvdvf1nLR/hX30ojavEzpoj+7gd1r/WQ==" />      <input type="hidden" name="repository_id" id="repository_id" value="21813295" class="form-control" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/Day8/re-com/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-label="Toggle repository notifications menu"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+                <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                Watch
+            </span>
+          </a>
+          <a class="social-count js-social-count"
+            href="/Day8/re-com/watchers"
+            aria-label="35 users are watching this repository">
+            35
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_included" value="included" checked="checked" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_subscribed" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                  <div class="select-menu-item-text">
+                    <input type="radio" name="do" id="do_ignore" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg class="octicon octicon-mute v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"/></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/Day8/re-com/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WVpSm+CtO3aavP2lMPI9wVlvAVef61OON/iEkUEryHlS/ChZVHQp21bgBE0PKiGp0vArrTSsy8xR2TuFdP23dg==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar Day8/re-com"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/Day8/re-com/stargazers"
+           aria-label="526 users starred this repository">
+          526
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/Day8/re-com/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="asUh6Z9h1Y9k86+19/AUfs52V8dzAtiLJW7nzAM1rHSERKzB3d5XGZWCk9kmhNp4XtJDaU58BErcQVpmH/oZDg==" />
+      <input type="hidden" name="context" value="repository"></input>
+      <button
+        type="submit"
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star Day8/re-com"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/Day8/re-com/stargazers"
+           aria-label="526 users starred this repository">
+          526
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <details class="details-reset details-overlay details-overlay-dark d-inline-block float-left"
+            data-deferred-details-content-url="/Day8/re-com/fork?fragment=1">
+            <summary class="btn btn-sm btn-with-count"
+              title="Fork your own copy of Day8/re-com to your account"
+              data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </summary>
+            <details-dialog class="anim-fade-in fast Box Box--overlay d-flex flex-column">
+              <div class="Box-header">
+                <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+                  <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+                </button>
+                <h3 class="Box-title">Where should we fork this repository?</h3>
+              </div>
+              <div class="Box-body overflow-auto text-center">
+                <include-fragment>
+                  <div class="octocat-spinner my-3" aria-label="Loading..."></div>
+                  <p class="f5 text-gray">If this dialog fails to load, you can visit <a href="/Day8/re-com/fork">the fork page</a> directly.</p>
+                </include-fragment>
+              </div>
+            </details-dialog>
+          </details>
+
+    <a href="/Day8/re-com/network/members" class="social-count"
+       aria-label="104 users forked this repository">
+      104
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/Day8">Day8</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/Day8/re-com">re-com</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /Day8/re-com" href="/Day8/re-com">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /Day8/re-com/issues" href="/Day8/re-com/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">45</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /Day8/re-com/pulls" href="/Day8/re-com/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">12</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /Day8/re-com/projects" href="/Day8/re-com/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /Day8/re-com/wiki" href="/Day8/re-com/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /Day8/re-com/pulse" href="/Day8/re-com/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Day8/re-com/blob/c76b5e56005a1dd93e8fc61ead11f0821b037392/run/resources/public/assets/css/material-design-iconic-font.min.css">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:e5eea9207af21738f42bf2a44d7123c0 -->
+
+  
+
+  <div class="file-navigation">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/Day8/re-com/blob/master/run/resources/public/assets/css/material-design-iconic-font.min.css"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.3.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.3.0">
+                v0.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.2.9/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.2.9"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.9">
+                v0.2.9
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.2.8/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.2.8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.8">
+                v0.2.8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.2.2/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.2.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.2">
+                v0.2.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.2.1/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.2.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.1">
+                v0.2.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.2.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.2.0">
+                v0.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.1.2-alpha/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.1.2-alpha"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.2-alpha">
+                v0.1.2-alpha
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/v0.1.1-alpha/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="v0.1.1-alpha"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v0.1.1-alpha">
+                v0.1.1-alpha
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/2.1.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="2.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.1.0">
+                2.1.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/2.0.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="2.0.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="2.0.0">
+                2.0.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/1.3.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="1.3.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.3.0">
+                1.3.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/1.2.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="1.2.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.2.0">
+                1.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/1.1.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="1.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.1.0">
+                1.1.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/1.0.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="1.0.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.0">
+                1.0.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.9.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.9.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.9.0">
+                0.9.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.8.3/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.8.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.8.3">
+                0.8.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.8.2/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.8.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.8.2">
+                0.8.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.8.1/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.8.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.8.1">
+                0.8.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.8.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.8.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.8.0">
+                0.8.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.7.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.7.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.7.0">
+                0.7.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.7.0-alpha2/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.7.0-alpha2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.7.0-alpha2">
+                0.7.0-alpha2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.7.0-alpha1/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.7.0-alpha1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.7.0-alpha1">
+                0.7.0-alpha1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.6.2/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.6.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.6.2">
+                0.6.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.6.1/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.6.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.6.1">
+                0.6.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.6.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.6.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.6.0">
+                0.6.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.6.0-SNAPSHOT/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.6.0-SNAPSHOT"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.6.0-SNAPSHOT">
+                0.6.0-SNAPSHOT
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.5.4/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.5.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.5.4">
+                0.5.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.5.3/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.5.3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.5.3">
+                0.5.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.5.2/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.5.2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.5.2">
+                0.5.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.5.1/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.5.1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.5.1">
+                0.5.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.5.0/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.5.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.5.0">
+                0.5.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.2.6/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.2.6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.2.6">
+                0.2.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/Day8/re-com/tree/0.2.5/run/resources/public/assets/css/material-design-iconic-font.min.css"
+              data-name="0.2.5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.2.5">
+                0.2.5
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="/Day8/re-com/find/master"
+            class="js-pjax-capture-input btn btn-sm BtnGroup-item"
+            data-pjax
+            data-hotkey="t">
+        Find file
+      </a>
+      <clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+        Copy path
+      </clipboard-copy>
+    </div>
+    <div id="blob-path" class="breadcrumb">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/Day8/re-com"><span>re-com</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Day8/re-com/tree/master/run"><span>run</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Day8/re-com/tree/master/run/resources"><span>resources</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Day8/re-com/tree/master/run/resources/public"><span>public</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Day8/re-com/tree/master/run/resources/public/assets"><span>assets</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/Day8/re-com/tree/master/run/resources/public/assets/css"><span>css</span></a></span><span class="separator">/</span><strong class="final-path">material-design-iconic-font.min.css</strong>
+    </div>
+  </div>
+
+
+  <include-fragment src="/Day8/re-com/contributors/master/run/resources/public/assets/css/material-design-iconic-font.min.css" class="commit-tease commit-loader">
+    <div>
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="commit-tease-contributors">
+        <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+      <span class="loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment>
+
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Day8/re-com/raw/master/run/resources/public/assets/css/material-design-iconic-font.min.css">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Day8/re-com/blame/master/run/resources/public/assets/css/material-design-iconic-font.min.css">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Day8/re-com/commits/master/run/resources/public/assets/css/material-design-iconic-font.min.css">History</a>
+    </div>
+
+
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Day8/re-com/edit/master/run/resources/public/assets/css/material-design-iconic-font.min.css" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="394nA61cNaU3R2mJ7w1bdiBW1TruDSWRaysHZitW/ZDMObMIX1H8MyfDHAFI613JfgRi8UnGuuRbx+159oEMIQ==" />
+            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+              aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
+              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+            </button>
+</form>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Day8/re-com/delete/master/run/resources/public/assets/css/material-design-iconic-font.min.css" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xk12gso/0q5EA1v+6glElTK8Kbh1v7WJGu1D41SN8ZIgiqy9ucYWYkm5Z0S7+3GBevqiGo+CNs9Cf1q28iuZbA==" />
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Fork this project and delete the file" data-disable-with>
+            <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      1 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    66.7 KB
+  </div>
+</div>
+
+    
+
+  <div itemprop="text" class="blob-wrapper data type-css">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">@font-face{font-family:Material-Design-Iconic-Font;src:url(../fonts/Material-Design-Iconic-Font.woff2?v=2.1.0) format(&#39;woff2&#39;),url(../fonts/Material-Design-Iconic-Font.woff?v=2.1.0) format(&#39;woff&#39;),url(../fonts/Material-Design-Iconic-Font.ttf?v=2.1.0) format(&#39;truetype&#39;)}.zmdi{display:inline-block;font:normal normal normal 14px/1 &#39;Material-Design-Iconic-Font&#39;;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.zmdi-hc-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}.zmdi-hc-2x{font-size:2em}.zmdi-hc-3x{font-size:3em}.zmdi-hc-4x{font-size:4em}.zmdi-hc-5x{font-size:5em}.zmdi-hc-fw{width:1.28571429em;text-align:center}.zmdi-hc-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}.zmdi-hc-ul&gt;li{position:relative}.zmdi-hc-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:.14285714em;text-align:center}.zmdi-hc-li.zmdi-hc-lg{left:-1.85714286em}.zmdi-hc-border{padding:.1em .25em;border:solid .1em #9e9e9e;border-radius:2px}.zmdi-hc-border-circle{padding:.1em .25em;border:solid .1em #9e9e9e;border-radius:50%}.zmdi.pull-left{float:left;margin-right:.15em}.zmdi.pull-right{float:right;margin-left:.15em}.zmdi-hc-spin{-webkit-animation:zmdi-spin 1.5s infinite linear;animation:zmdi-spin 1.5s infinite linear}.zmdi-hc-spin-reverse{-webkit-animation:zmdi-spin-reverse 1.5s infinite linear;animation:zmdi-spin-reverse 1.5s infinite linear}@-webkit-keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes zmdi-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}@keyframes zmdi-spin-reverse{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(-359deg);transform:rotate(-359deg)}}.zmdi-hc-rotate-90{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.zmdi-hc-rotate-180{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.zmdi-hc-rotate-270{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.zmdi-hc-flip-horizontal{-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}.zmdi-hc-flip-vertical{-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}.zmdi-hc-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.zmdi-hc-stack-1x,.zmdi-hc-stack-2x{position:absolute;left:0;width:100%;text-align:center}.zmdi-hc-stack-1x{line-height:inherit}.zmdi-hc-stack-2x{font-size:2em}.zmdi-hc-inverse{color:#fff}.zmdi-3d-rotation:before{content:&#39;\f101&#39;}.zmdi-airplane-off:before{content:&#39;\f102&#39;}.zmdi-airplane:before{content:&#39;\f103&#39;}.zmdi-album:before{content:&#39;\f104&#39;}.zmdi-archive:before{content:&#39;\f105&#39;}.zmdi-assignment-account:before{content:&#39;\f106&#39;}.zmdi-assignment-alert:before{content:&#39;\f107&#39;}.zmdi-assignment-check:before{content:&#39;\f108&#39;}.zmdi-assignment-o:before{content:&#39;\f109&#39;}.zmdi-assignment-return:before{content:&#39;\f10a&#39;}.zmdi-assignment-returned:before{content:&#39;\f10b&#39;}.zmdi-assignment:before{content:&#39;\f10c&#39;}.zmdi-attachment-alt:before{content:&#39;\f10d&#39;}.zmdi-attachment:before{content:&#39;\f10e&#39;}.zmdi-audio:before{content:&#39;\f10f&#39;}.zmdi-badge-check:before{content:&#39;\f110&#39;}.zmdi-balance-wallet:before{content:&#39;\f111&#39;}.zmdi-balance:before{content:&#39;\f112&#39;}.zmdi-battery-alert:before{content:&#39;\f113&#39;}.zmdi-battery-flash:before{content:&#39;\f114&#39;}.zmdi-battery-unknown:before{content:&#39;\f115&#39;}.zmdi-battery:before{content:&#39;\f116&#39;}.zmdi-bike:before{content:&#39;\f117&#39;}.zmdi-block-alt:before{content:&#39;\f118&#39;}.zmdi-block:before{content:&#39;\f119&#39;}.zmdi-boat:before{content:&#39;\f11a&#39;}.zmdi-book-image:before{content:&#39;\f11b&#39;}.zmdi-book:before{content:&#39;\f11c&#39;}.zmdi-bookmark-outline:before{content:&#39;\f11d&#39;}.zmdi-bookmark:before{content:&#39;\f11e&#39;}.zmdi-brush:before{content:&#39;\f11f&#39;}.zmdi-bug:before{content:&#39;\f120&#39;}.zmdi-bus:before{content:&#39;\f121&#39;}.zmdi-cake:before{content:&#39;\f122&#39;}.zmdi-car-taxi:before{content:&#39;\f123&#39;}.zmdi-car-wash:before{content:&#39;\f124&#39;}.zmdi-car:before{content:&#39;\f125&#39;}.zmdi-card-giftcard:before{content:&#39;\f126&#39;}.zmdi-card-membership:before{content:&#39;\f127&#39;}.zmdi-card-travel:before{content:&#39;\f128&#39;}.zmdi-card:before{content:&#39;\f129&#39;}.zmdi-case-check:before{content:&#39;\f12a&#39;}.zmdi-case-download:before{content:&#39;\f12b&#39;}.zmdi-case-play:before{content:&#39;\f12c&#39;}.zmdi-case:before{content:&#39;\f12d&#39;}.zmdi-cast-connected:before{content:&#39;\f12e&#39;}.zmdi-cast:before{content:&#39;\f12f&#39;}.zmdi-chart-donut:before{content:&#39;\f130&#39;}.zmdi-chart:before{content:&#39;\f131&#39;}.zmdi-city-alt:before{content:&#39;\f132&#39;}.zmdi-city:before{content:&#39;\f133&#39;}.zmdi-close-circle-o:before{content:&#39;\f134&#39;}.zmdi-close-circle:before{content:&#39;\f135&#39;}.zmdi-close:before{content:&#39;\f136&#39;}.zmdi-cocktail:before{content:&#39;\f137&#39;}.zmdi-code-setting:before{content:&#39;\f138&#39;}.zmdi-code-smartphone:before{content:&#39;\f139&#39;}.zmdi-code:before{content:&#39;\f13a&#39;}.zmdi-coffee:before{content:&#39;\f13b&#39;}.zmdi-collection-bookmark:before{content:&#39;\f13c&#39;}.zmdi-collection-case-play:before{content:&#39;\f13d&#39;}.zmdi-collection-folder-image:before{content:&#39;\f13e&#39;}.zmdi-collection-image-o:before{content:&#39;\f13f&#39;}.zmdi-collection-image:before{content:&#39;\f140&#39;}.zmdi-collection-item-1:before{content:&#39;\f141&#39;}.zmdi-collection-item-2:before{content:&#39;\f142&#39;}.zmdi-collection-item-3:before{content:&#39;\f143&#39;}.zmdi-collection-item-4:before{content:&#39;\f144&#39;}.zmdi-collection-item-5:before{content:&#39;\f145&#39;}.zmdi-collection-item-6:before{content:&#39;\f146&#39;}.zmdi-collection-item-7:before{content:&#39;\f147&#39;}.zmdi-collection-item-8:before{content:&#39;\f148&#39;}.zmdi-collection-item-9-plus:before{content:&#39;\f149&#39;}.zmdi-collection-item-9:before{content:&#39;\f14a&#39;}.zmdi-collection-item:before{content:&#39;\f14b&#39;}.zmdi-collection-music:before{content:&#39;\f14c&#39;}.zmdi-collection-pdf:before{content:&#39;\f14d&#39;}.zmdi-collection-plus:before{content:&#39;\f14e&#39;}.zmdi-collection-speaker:before{content:&#39;\f14f&#39;}.zmdi-collection-text:before{content:&#39;\f150&#39;}.zmdi-collection-video:before{content:&#39;\f151&#39;}.zmdi-compass:before{content:&#39;\f152&#39;}.zmdi-cutlery:before{content:&#39;\f153&#39;}.zmdi-delete:before{content:&#39;\f154&#39;}.zmdi-dialpad:before{content:&#39;\f155&#39;}.zmdi-dns:before{content:&#39;\f156&#39;}.zmdi-drink:before{content:&#39;\f157&#39;}.zmdi-edit:before{content:&#39;\f158&#39;}.zmdi-email-open:before{content:&#39;\f159&#39;}.zmdi-email:before{content:&#39;\f15a&#39;}.zmdi-eye-off:before{content:&#39;\f15b&#39;}.zmdi-eye:before{content:&#39;\f15c&#39;}.zmdi-eyedropper:before{content:&#39;\f15d&#39;}.zmdi-favorite-outline:before{content:&#39;\f15e&#39;}.zmdi-favorite:before{content:&#39;\f15f&#39;}.zmdi-filter-list:before{content:&#39;\f160&#39;}.zmdi-fire:before{content:&#39;\f161&#39;}.zmdi-flag:before{content:&#39;\f162&#39;}.zmdi-flare:before{content:&#39;\f163&#39;}.zmdi-flash-auto:before{content:&#39;\f164&#39;}.zmdi-flash-off:before{content:&#39;\f165&#39;}.zmdi-flash:before{content:&#39;\f166&#39;}.zmdi-flip:before{content:&#39;\f167&#39;}.zmdi-flower-alt:before{content:&#39;\f168&#39;}.zmdi-flower:before{content:&#39;\f169&#39;}.zmdi-font:before{content:&#39;\f16a&#39;}.zmdi-fullscreen-alt:before{content:&#39;\f16b&#39;}.zmdi-fullscreen-exit:before{content:&#39;\f16c&#39;}.zmdi-fullscreen:before{content:&#39;\f16d&#39;}.zmdi-functions:before{content:&#39;\f16e&#39;}.zmdi-gas-station:before{content:&#39;\f16f&#39;}.zmdi-gesture:before{content:&#39;\f170&#39;}.zmdi-globe-alt:before{content:&#39;\f171&#39;}.zmdi-globe-lock:before{content:&#39;\f172&#39;}.zmdi-globe:before{content:&#39;\f173&#39;}.zmdi-graduation-cap:before{content:&#39;\f174&#39;}.zmdi-home:before{content:&#39;\f175&#39;}.zmdi-hospital-alt:before{content:&#39;\f176&#39;}.zmdi-hospital:before{content:&#39;\f177&#39;}.zmdi-hotel:before{content:&#39;\f178&#39;}.zmdi-hourglass-alt:before{content:&#39;\f179&#39;}.zmdi-hourglass-outline:before{content:&#39;\f17a&#39;}.zmdi-hourglass:before{content:&#39;\f17b&#39;}.zmdi-http:before{content:&#39;\f17c&#39;}.zmdi-image-alt:before{content:&#39;\f17d&#39;}.zmdi-image-o:before{content:&#39;\f17e&#39;}.zmdi-image:before{content:&#39;\f17f&#39;}.zmdi-inbox:before{content:&#39;\f180&#39;}.zmdi-invert-colors-off:before{content:&#39;\f181&#39;}.zmdi-invert-colors:before{content:&#39;\f182&#39;}.zmdi-key:before{content:&#39;\f183&#39;}.zmdi-label-alt-outline:before{content:&#39;\f184&#39;}.zmdi-label-alt:before{content:&#39;\f185&#39;}.zmdi-label-heart:before{content:&#39;\f186&#39;}.zmdi-label:before{content:&#39;\f187&#39;}.zmdi-labels:before{content:&#39;\f188&#39;}.zmdi-lamp:before{content:&#39;\f189&#39;}.zmdi-landscape:before{content:&#39;\f18a&#39;}.zmdi-layers-off:before{content:&#39;\f18b&#39;}.zmdi-layers:before{content:&#39;\f18c&#39;}.zmdi-library:before{content:&#39;\f18d&#39;}.zmdi-link:before{content:&#39;\f18e&#39;}.zmdi-lock-open:before{content:&#39;\f18f&#39;}.zmdi-lock-outline:before{content:&#39;\f190&#39;}.zmdi-lock:before{content:&#39;\f191&#39;}.zmdi-mail-reply-all:before{content:&#39;\f192&#39;}.zmdi-mail-reply:before{content:&#39;\f193&#39;}.zmdi-mail-send:before{content:&#39;\f194&#39;}.zmdi-mall:before{content:&#39;\f195&#39;}.zmdi-map:before{content:&#39;\f196&#39;}.zmdi-menu:before{content:&#39;\f197&#39;}.zmdi-money-box:before{content:&#39;\f198&#39;}.zmdi-money-off:before{content:&#39;\f199&#39;}.zmdi-money:before{content:&#39;\f19a&#39;}.zmdi-more-vert:before{content:&#39;\f19b&#39;}.zmdi-more:before{content:&#39;\f19c&#39;}.zmdi-movie-alt:before{content:&#39;\f19d&#39;}.zmdi-movie:before{content:&#39;\f19e&#39;}.zmdi-nature-people:before{content:&#39;\f19f&#39;}.zmdi-nature:before{content:&#39;\f1a0&#39;}.zmdi-navigation:before{content:&#39;\f1a1&#39;}.zmdi-open-in-browser:before{content:&#39;\f1a2&#39;}.zmdi-open-in-new:before{content:&#39;\f1a3&#39;}.zmdi-palette:before{content:&#39;\f1a4&#39;}.zmdi-parking:before{content:&#39;\f1a5&#39;}.zmdi-pin-account:before{content:&#39;\f1a6&#39;}.zmdi-pin-assistant:before{content:&#39;\f1a7&#39;}.zmdi-pin-drop:before{content:&#39;\f1a8&#39;}.zmdi-pin-help:before{content:&#39;\f1a9&#39;}.zmdi-pin-off:before{content:&#39;\f1aa&#39;}.zmdi-pin:before{content:&#39;\f1ab&#39;}.zmdi-pizza:before{content:&#39;\f1ac&#39;}.zmdi-plaster:before{content:&#39;\f1ad&#39;}.zmdi-power-setting:before{content:&#39;\f1ae&#39;}.zmdi-power:before{content:&#39;\f1af&#39;}.zmdi-print:before{content:&#39;\f1b0&#39;}.zmdi-puzzle-piece:before{content:&#39;\f1b1&#39;}.zmdi-quote:before{content:&#39;\f1b2&#39;}.zmdi-railway:before{content:&#39;\f1b3&#39;}.zmdi-receipt:before{content:&#39;\f1b4&#39;}.zmdi-refresh-alt:before{content:&#39;\f1b5&#39;}.zmdi-refresh-sync-alert:before{content:&#39;\f1b6&#39;}.zmdi-refresh-sync-off:before{content:&#39;\f1b7&#39;}.zmdi-refresh-sync:before{content:&#39;\f1b8&#39;}.zmdi-refresh:before{content:&#39;\f1b9&#39;}.zmdi-roller:before{content:&#39;\f1ba&#39;}.zmdi-ruler:before{content:&#39;\f1bb&#39;}.zmdi-scissors:before{content:&#39;\f1bc&#39;}.zmdi-screen-rotation-lock:before{content:&#39;\f1bd&#39;}.zmdi-screen-rotation:before{content:&#39;\f1be&#39;}.zmdi-search-for:before{content:&#39;\f1bf&#39;}.zmdi-search-in-file:before{content:&#39;\f1c0&#39;}.zmdi-search-in-page:before{content:&#39;\f1c1&#39;}.zmdi-search-replace:before{content:&#39;\f1c2&#39;}.zmdi-search:before{content:&#39;\f1c3&#39;}.zmdi-seat:before{content:&#39;\f1c4&#39;}.zmdi-settings-square:before{content:&#39;\f1c5&#39;}.zmdi-settings:before{content:&#39;\f1c6&#39;}.zmdi-shield-check:before{content:&#39;\f1c7&#39;}.zmdi-shield-security:before{content:&#39;\f1c8&#39;}.zmdi-shopping-basket:before{content:&#39;\f1c9&#39;}.zmdi-shopping-cart-plus:before{content:&#39;\f1ca&#39;}.zmdi-shopping-cart:before{content:&#39;\f1cb&#39;}.zmdi-sign-in:before{content:&#39;\f1cc&#39;}.zmdi-sort-amount-asc:before{content:&#39;\f1cd&#39;}.zmdi-sort-amount-desc:before{content:&#39;\f1ce&#39;}.zmdi-sort-asc:before{content:&#39;\f1cf&#39;}.zmdi-sort-desc:before{content:&#39;\f1d0&#39;}.zmdi-spellcheck:before{content:&#39;\f1d1&#39;}.zmdi-storage:before{content:&#39;\f1d2&#39;}.zmdi-store-24:before{content:&#39;\f1d3&#39;}.zmdi-store:before{content:&#39;\f1d4&#39;}.zmdi-subway:before{content:&#39;\f1d5&#39;}.zmdi-sun:before{content:&#39;\f1d6&#39;}.zmdi-tab-unselected:before{content:&#39;\f1d7&#39;}.zmdi-tab:before{content:&#39;\f1d8&#39;}.zmdi-tag-close:before{content:&#39;\f1d9&#39;}.zmdi-tag-more:before{content:&#39;\f1da&#39;}.zmdi-tag:before{content:&#39;\f1db&#39;}.zmdi-thumb-down:before{content:&#39;\f1dc&#39;}.zmdi-thumb-up-down:before{content:&#39;\f1dd&#39;}.zmdi-thumb-up:before{content:&#39;\f1de&#39;}.zmdi-ticket-star:before{content:&#39;\f1df&#39;}.zmdi-toll:before{content:&#39;\f1e0&#39;}.zmdi-toys:before{content:&#39;\f1e1&#39;}.zmdi-traffic:before{content:&#39;\f1e2&#39;}.zmdi-translate:before{content:&#39;\f1e3&#39;}.zmdi-triangle-down:before{content:&#39;\f1e4&#39;}.zmdi-triangle-up:before{content:&#39;\f1e5&#39;}.zmdi-truck:before{content:&#39;\f1e6&#39;}.zmdi-turning-sign:before{content:&#39;\f1e7&#39;}.zmdi-wallpaper:before{content:&#39;\f1e8&#39;}.zmdi-washing-machine:before{content:&#39;\f1e9&#39;}.zmdi-window-maximize:before{content:&#39;\f1ea&#39;}.zmdi-window-minimize:before{content:&#39;\f1eb&#39;}.zmdi-window-restore:before{content:&#39;\f1ec&#39;}.zmdi-wrench:before{content:&#39;\f1ed&#39;}.zmdi-zoom-in:before{content:&#39;\f1ee&#39;}.zmdi-zoom-out:before{content:&#39;\f1ef&#39;}.zmdi-alert-circle-o:before{content:&#39;\f1f0&#39;}.zmdi-alert-circle:before{content:&#39;\f1f1&#39;}.zmdi-alert-octagon:before{content:&#39;\f1f2&#39;}.zmdi-alert-polygon:before{content:&#39;\f1f3&#39;}.zmdi-alert-triangle:before{content:&#39;\f1f4&#39;}.zmdi-help-outline:before{content:&#39;\f1f5&#39;}.zmdi-help:before{content:&#39;\f1f6&#39;}.zmdi-info-outline:before{content:&#39;\f1f7&#39;}.zmdi-info:before{content:&#39;\f1f8&#39;}.zmdi-notifications-active:before{content:&#39;\f1f9&#39;}.zmdi-notifications-add:before{content:&#39;\f1fa&#39;}.zmdi-notifications-none:before{content:&#39;\f1fb&#39;}.zmdi-notifications-off:before{content:&#39;\f1fc&#39;}.zmdi-notifications-paused:before{content:&#39;\f1fd&#39;}.zmdi-notifications:before{content:&#39;\f1fe&#39;}.zmdi-account-add:before{content:&#39;\f1ff&#39;}.zmdi-account-box-mail:before{content:&#39;\f200&#39;}.zmdi-account-box-o:before{content:&#39;\f201&#39;}.zmdi-account-box-phone:before{content:&#39;\f202&#39;}.zmdi-account-box:before{content:&#39;\f203&#39;}.zmdi-account-calendar:before{content:&#39;\f204&#39;}.zmdi-account-circle:before{content:&#39;\f205&#39;}.zmdi-account-o:before{content:&#39;\f206&#39;}.zmdi-account:before{content:&#39;\f207&#39;}.zmdi-accounts-add:before{content:&#39;\f208&#39;}.zmdi-accounts-alt:before{content:&#39;\f209&#39;}.zmdi-accounts-list-alt:before{content:&#39;\f20a&#39;}.zmdi-accounts-list:before{content:&#39;\f20b&#39;}.zmdi-accounts-outline:before{content:&#39;\f20c&#39;}.zmdi-accounts:before{content:&#39;\f20d&#39;}.zmdi-face:before{content:&#39;\f20e&#39;}.zmdi-female:before{content:&#39;\f20f&#39;}.zmdi-male-alt:before{content:&#39;\f210&#39;}.zmdi-male-female:before{content:&#39;\f211&#39;}.zmdi-male:before{content:&#39;\f212&#39;}.zmdi-mood-bad:before{content:&#39;\f213&#39;}.zmdi-mood:before{content:&#39;\f214&#39;}.zmdi-run:before{content:&#39;\f215&#39;}.zmdi-walk:before{content:&#39;\f216&#39;}.zmdi-cloud-box:before{content:&#39;\f217&#39;}.zmdi-cloud-circle:before{content:&#39;\f218&#39;}.zmdi-cloud-done:before{content:&#39;\f219&#39;}.zmdi-cloud-download:before{content:&#39;\f21a&#39;}.zmdi-cloud-off:before{content:&#39;\f21b&#39;}.zmdi-cloud-outline-alt:before{content:&#39;\f21c&#39;}.zmdi-cloud-outline:before{content:&#39;\f21d&#39;}.zmdi-cloud-upload:before{content:&#39;\f21e&#39;}.zmdi-cloud:before{content:&#39;\f21f&#39;}.zmdi-download:before{content:&#39;\f220&#39;}.zmdi-file-plus:before{content:&#39;\f221&#39;}.zmdi-file-text:before{content:&#39;\f222&#39;}.zmdi-file:before{content:&#39;\f223&#39;}.zmdi-folder-outline:before{content:&#39;\f224&#39;}.zmdi-folder-person:before{content:&#39;\f225&#39;}.zmdi-folder-star-alt:before{content:&#39;\f226&#39;}.zmdi-folder-star:before{content:&#39;\f227&#39;}.zmdi-folder:before{content:&#39;\f228&#39;}.zmdi-gif:before{content:&#39;\f229&#39;}.zmdi-upload:before{content:&#39;\f22a&#39;}.zmdi-border-all:before{content:&#39;\f22b&#39;}.zmdi-border-bottom:before{content:&#39;\f22c&#39;}.zmdi-border-clear:before{content:&#39;\f22d&#39;}.zmdi-border-color:before{content:&#39;\f22e&#39;}.zmdi-border-horizontal:before{content:&#39;\f22f&#39;}.zmdi-border-inner:before{content:&#39;\f230&#39;}.zmdi-border-left:before{content:&#39;\f231&#39;}.zmdi-border-outer:before{content:&#39;\f232&#39;}.zmdi-border-right:before{content:&#39;\f233&#39;}.zmdi-border-style:before{content:&#39;\f234&#39;}.zmdi-border-top:before{content:&#39;\f235&#39;}.zmdi-border-vertical:before{content:&#39;\f236&#39;}.zmdi-copy:before{content:&#39;\f237&#39;}.zmdi-crop:before{content:&#39;\f238&#39;}.zmdi-format-align-center:before{content:&#39;\f239&#39;}.zmdi-format-align-justify:before{content:&#39;\f23a&#39;}.zmdi-format-align-left:before{content:&#39;\f23b&#39;}.zmdi-format-align-right:before{content:&#39;\f23c&#39;}.zmdi-format-bold:before{content:&#39;\f23d&#39;}.zmdi-format-clear-all:before{content:&#39;\f23e&#39;}.zmdi-format-clear:before{content:&#39;\f23f&#39;}.zmdi-format-color-fill:before{content:&#39;\f240&#39;}.zmdi-format-color-reset:before{content:&#39;\f241&#39;}.zmdi-format-color-text:before{content:&#39;\f242&#39;}.zmdi-format-indent-decrease:before{content:&#39;\f243&#39;}.zmdi-format-indent-increase:before{content:&#39;\f244&#39;}.zmdi-format-italic:before{content:&#39;\f245&#39;}.zmdi-format-line-spacing:before{content:&#39;\f246&#39;}.zmdi-format-list-bulleted:before{content:&#39;\f247&#39;}.zmdi-format-list-numbered:before{content:&#39;\f248&#39;}.zmdi-format-ltr:before{content:&#39;\f249&#39;}.zmdi-format-rtl:before{content:&#39;\f24a&#39;}.zmdi-format-size:before{content:&#39;\f24b&#39;}.zmdi-format-strikethrough-s:before{content:&#39;\f24c&#39;}.zmdi-format-strikethrough:before{content:&#39;\f24d&#39;}.zmdi-format-subject:before{content:&#39;\f24e&#39;}.zmdi-format-underlined:before{content:&#39;\f24f&#39;}.zmdi-format-valign-bottom:before{content:&#39;\f250&#39;}.zmdi-format-valign-center:before{content:&#39;\f251&#39;}.zmdi-format-valign-top:before{content:&#39;\f252&#39;}.zmdi-redo:before{content:&#39;\f253&#39;}.zmdi-select-all:before{content:&#39;\f254&#39;}.zmdi-space-bar:before{content:&#39;\f255&#39;}.zmdi-text-format:before{content:&#39;\f256&#39;}.zmdi-transform:before{content:&#39;\f257&#39;}.zmdi-undo:before{content:&#39;\f258&#39;}.zmdi-wrap-text:before{content:&#39;\f259&#39;}.zmdi-comment-alert:before{content:&#39;\f25a&#39;}.zmdi-comment-alt-text:before{content:&#39;\f25b&#39;}.zmdi-comment-alt:before{content:&#39;\f25c&#39;}.zmdi-comment-edit:before{content:&#39;\f25d&#39;}.zmdi-comment-image:before{content:&#39;\f25e&#39;}.zmdi-comment-list:before{content:&#39;\f25f&#39;}.zmdi-comment-more:before{content:&#39;\f260&#39;}.zmdi-comment-outline:before{content:&#39;\f261&#39;}.zmdi-comment-text-alt:before{content:&#39;\f262&#39;}.zmdi-comment-text:before{content:&#39;\f263&#39;}.zmdi-comment-video:before{content:&#39;\f264&#39;}.zmdi-comment:before{content:&#39;\f265&#39;}.zmdi-comments:before{content:&#39;\f266&#39;}.zmdi-check-all:before{content:&#39;\f267&#39;}.zmdi-check-circle-u:before{content:&#39;\f268&#39;}.zmdi-check-circle:before{content:&#39;\f269&#39;}.zmdi-check-square:before{content:&#39;\f26a&#39;}.zmdi-check:before{content:&#39;\f26b&#39;}.zmdi-circle-o:before{content:&#39;\f26c&#39;}.zmdi-circle:before{content:&#39;\f26d&#39;}.zmdi-dot-circle-alt:before{content:&#39;\f26e&#39;}.zmdi-dot-circle:before{content:&#39;\f26f&#39;}.zmdi-minus-circle-outline:before{content:&#39;\f270&#39;}.zmdi-minus-circle:before{content:&#39;\f271&#39;}.zmdi-minus-square:before{content:&#39;\f272&#39;}.zmdi-minus:before{content:&#39;\f273&#39;}.zmdi-plus-circle-o-duplicate:before{content:&#39;\f274&#39;}.zmdi-plus-circle-o:before{content:&#39;\f275&#39;}.zmdi-plus-circle:before{content:&#39;\f276&#39;}.zmdi-plus-square:before{content:&#39;\f277&#39;}.zmdi-plus:before{content:&#39;\f278&#39;}.zmdi-square-o:before{content:&#39;\f279&#39;}.zmdi-star-circle:before{content:&#39;\f27a&#39;}.zmdi-star-half:before{content:&#39;\f27b&#39;}.zmdi-star-outline:before{content:&#39;\f27c&#39;}.zmdi-star:before{content:&#39;\f27d&#39;}.zmdi-bluetooth-connected:before{content:&#39;\f27e&#39;}.zmdi-bluetooth-off:before{content:&#39;\f27f&#39;}.zmdi-bluetooth-search:before{content:&#39;\f280&#39;}.zmdi-bluetooth-setting:before{content:&#39;\f281&#39;}.zmdi-bluetooth:before{content:&#39;\f282&#39;}.zmdi-camera-add:before{content:&#39;\f283&#39;}.zmdi-camera-alt:before{content:&#39;\f284&#39;}.zmdi-camera-bw:before{content:&#39;\f285&#39;}.zmdi-camera-front:before{content:&#39;\f286&#39;}.zmdi-camera-mic:before{content:&#39;\f287&#39;}.zmdi-camera-party-mode:before{content:&#39;\f288&#39;}.zmdi-camera-rear:before{content:&#39;\f289&#39;}.zmdi-camera-roll:before{content:&#39;\f28a&#39;}.zmdi-camera-switch:before{content:&#39;\f28b&#39;}.zmdi-camera:before{content:&#39;\f28c&#39;}.zmdi-card-alert:before{content:&#39;\f28d&#39;}.zmdi-card-off:before{content:&#39;\f28e&#39;}.zmdi-card-sd:before{content:&#39;\f28f&#39;}.zmdi-card-sim:before{content:&#39;\f290&#39;}.zmdi-desktop-mac:before{content:&#39;\f291&#39;}.zmdi-desktop-windows:before{content:&#39;\f292&#39;}.zmdi-device-hub:before{content:&#39;\f293&#39;}.zmdi-devices-off:before{content:&#39;\f294&#39;}.zmdi-devices:before{content:&#39;\f295&#39;}.zmdi-dock:before{content:&#39;\f296&#39;}.zmdi-floppy:before{content:&#39;\f297&#39;}.zmdi-gamepad:before{content:&#39;\f298&#39;}.zmdi-gps-dot:before{content:&#39;\f299&#39;}.zmdi-gps-off:before{content:&#39;\f29a&#39;}.zmdi-gps:before{content:&#39;\f29b&#39;}.zmdi-headset-mic:before{content:&#39;\f29c&#39;}.zmdi-headset:before{content:&#39;\f29d&#39;}.zmdi-input-antenna:before{content:&#39;\f29e&#39;}.zmdi-input-composite:before{content:&#39;\f29f&#39;}.zmdi-input-hdmi:before{content:&#39;\f2a0&#39;}.zmdi-input-power:before{content:&#39;\f2a1&#39;}.zmdi-input-svideo:before{content:&#39;\f2a2&#39;}.zmdi-keyboard-hide:before{content:&#39;\f2a3&#39;}.zmdi-keyboard:before{content:&#39;\f2a4&#39;}.zmdi-laptop-chromebook:before{content:&#39;\f2a5&#39;}.zmdi-laptop-mac:before{content:&#39;\f2a6&#39;}.zmdi-laptop:before{content:&#39;\f2a7&#39;}.zmdi-mic-off:before{content:&#39;\f2a8&#39;}.zmdi-mic-outline:before{content:&#39;\f2a9&#39;}.zmdi-mic-setting:before{content:&#39;\f2aa&#39;}.zmdi-mic:before{content:&#39;\f2ab&#39;}.zmdi-mouse:before{content:&#39;\f2ac&#39;}.zmdi-network-alert:before{content:&#39;\f2ad&#39;}.zmdi-network-locked:before{content:&#39;\f2ae&#39;}.zmdi-network-off:before{content:&#39;\f2af&#39;}.zmdi-network-outline:before{content:&#39;\f2b0&#39;}.zmdi-network-setting:before{content:&#39;\f2b1&#39;}.zmdi-network:before{content:&#39;\f2b2&#39;}.zmdi-phone-bluetooth:before{content:&#39;\f2b3&#39;}.zmdi-phone-end:before{content:&#39;\f2b4&#39;}.zmdi-phone-forwarded:before{content:&#39;\f2b5&#39;}.zmdi-phone-in-talk:before{content:&#39;\f2b6&#39;}.zmdi-phone-locked:before{content:&#39;\f2b7&#39;}.zmdi-phone-missed:before{content:&#39;\f2b8&#39;}.zmdi-phone-msg:before{content:&#39;\f2b9&#39;}.zmdi-phone-paused:before{content:&#39;\f2ba&#39;}.zmdi-phone-ring:before{content:&#39;\f2bb&#39;}.zmdi-phone-setting:before{content:&#39;\f2bc&#39;}.zmdi-phone-sip:before{content:&#39;\f2bd&#39;}.zmdi-phone:before{content:&#39;\f2be&#39;}.zmdi-portable-wifi-changes:before{content:&#39;\f2bf&#39;}.zmdi-portable-wifi-off:before{content:&#39;\f2c0&#39;}.zmdi-portable-wifi:before{content:&#39;\f2c1&#39;}.zmdi-radio:before{content:&#39;\f2c2&#39;}.zmdi-reader:before{content:&#39;\f2c3&#39;}.zmdi-remote-control-alt:before{content:&#39;\f2c4&#39;}.zmdi-remote-control:before{content:&#39;\f2c5&#39;}.zmdi-router:before{content:&#39;\f2c6&#39;}.zmdi-scanner:before{content:&#39;\f2c7&#39;}.zmdi-smartphone-android:before{content:&#39;\f2c8&#39;}.zmdi-smartphone-download:before{content:&#39;\f2c9&#39;}.zmdi-smartphone-erase:before{content:&#39;\f2ca&#39;}.zmdi-smartphone-info:before{content:&#39;\f2cb&#39;}.zmdi-smartphone-iphone:before{content:&#39;\f2cc&#39;}.zmdi-smartphone-landscape-lock:before{content:&#39;\f2cd&#39;}.zmdi-smartphone-landscape:before{content:&#39;\f2ce&#39;}.zmdi-smartphone-lock:before{content:&#39;\f2cf&#39;}.zmdi-smartphone-portrait-lock:before{content:&#39;\f2d0&#39;}.zmdi-smartphone-ring:before{content:&#39;\f2d1&#39;}.zmdi-smartphone-setting:before{content:&#39;\f2d2&#39;}.zmdi-smartphone-setup:before{content:&#39;\f2d3&#39;}.zmdi-smartphone:before{content:&#39;\f2d4&#39;}.zmdi-speaker:before{content:&#39;\f2d5&#39;}.zmdi-tablet-android:before{content:&#39;\f2d6&#39;}.zmdi-tablet-mac:before{content:&#39;\f2d7&#39;}.zmdi-tablet:before{content:&#39;\f2d8&#39;}.zmdi-tv-alt-play:before{content:&#39;\f2d9&#39;}.zmdi-tv-list:before{content:&#39;\f2da&#39;}.zmdi-tv-play:before{content:&#39;\f2db&#39;}.zmdi-tv:before{content:&#39;\f2dc&#39;}.zmdi-usb:before{content:&#39;\f2dd&#39;}.zmdi-videocam-off:before{content:&#39;\f2de&#39;}.zmdi-videocam-switch:before{content:&#39;\f2df&#39;}.zmdi-videocam:before{content:&#39;\f2e0&#39;}.zmdi-watch:before{content:&#39;\f2e1&#39;}.zmdi-wifi-alt-2:before{content:&#39;\f2e2&#39;}.zmdi-wifi-alt:before{content:&#39;\f2e3&#39;}.zmdi-wifi-info:before{content:&#39;\f2e4&#39;}.zmdi-wifi-lock:before{content:&#39;\f2e5&#39;}.zmdi-wifi-off:before{content:&#39;\f2e6&#39;}.zmdi-wifi-outline:before{content:&#39;\f2e7&#39;}.zmdi-wifi:before{content:&#39;\f2e8&#39;}.zmdi-arrow-left-bottom:before{content:&#39;\f2e9&#39;}.zmdi-arrow-left:before{content:&#39;\f2ea&#39;}.zmdi-arrow-merge:before{content:&#39;\f2eb&#39;}.zmdi-arrow-missed:before{content:&#39;\f2ec&#39;}.zmdi-arrow-right-top:before{content:&#39;\f2ed&#39;}.zmdi-arrow-right:before{content:&#39;\f2ee&#39;}.zmdi-arrow-split:before{content:&#39;\f2ef&#39;}.zmdi-arrows:before{content:&#39;\f2f0&#39;}.zmdi-caret-down-circle:before{content:&#39;\f2f1&#39;}.zmdi-caret-down:before{content:&#39;\f2f2&#39;}.zmdi-caret-left-circle:before{content:&#39;\f2f3&#39;}.zmdi-caret-left:before{content:&#39;\f2f4&#39;}.zmdi-caret-right-circle:before{content:&#39;\f2f5&#39;}.zmdi-caret-right:before{content:&#39;\f2f6&#39;}.zmdi-caret-up-circle:before{content:&#39;\f2f7&#39;}.zmdi-caret-up:before{content:&#39;\f2f8&#39;}.zmdi-chevron-down:before{content:&#39;\f2f9&#39;}.zmdi-chevron-left:before{content:&#39;\f2fa&#39;}.zmdi-chevron-right:before{content:&#39;\f2fb&#39;}.zmdi-chevron-up:before{content:&#39;\f2fc&#39;}.zmdi-forward:before{content:&#39;\f2fd&#39;}.zmdi-long-arrow-down:before{content:&#39;\f2fe&#39;}.zmdi-long-arrow-left:before{content:&#39;\f2ff&#39;}.zmdi-long-arrow-return:before{content:&#39;\f300&#39;}.zmdi-long-arrow-right:before{content:&#39;\f301&#39;}.zmdi-long-arrow-tab:before{content:&#39;\f302&#39;}.zmdi-long-arrow-up:before{content:&#39;\f303&#39;}.zmdi-rotate-ccw:before{content:&#39;\f304&#39;}.zmdi-rotate-cw:before{content:&#39;\f305&#39;}.zmdi-rotate-left:before{content:&#39;\f306&#39;}.zmdi-rotate-right:before{content:&#39;\f307&#39;}.zmdi-square-down:before{content:&#39;\f308&#39;}.zmdi-square-right:before{content:&#39;\f309&#39;}.zmdi-swap-alt:before{content:&#39;\f30a&#39;}.zmdi-swap-vertical-circle:before{content:&#39;\f30b&#39;}.zmdi-swap-vertical:before{content:&#39;\f30c&#39;}.zmdi-swap:before{content:&#39;\f30d&#39;}.zmdi-trending-down:before{content:&#39;\f30e&#39;}.zmdi-trending-flat:before{content:&#39;\f30f&#39;}.zmdi-trending-up:before{content:&#39;\f310&#39;}.zmdi-unfold-less:before{content:&#39;\f311&#39;}.zmdi-unfold-more:before{content:&#39;\f312&#39;}.zmdi-apps:before{content:&#39;\f313&#39;}.zmdi-grid-off:before{content:&#39;\f314&#39;}.zmdi-grid:before{content:&#39;\f315&#39;}.zmdi-view-agenda:before{content:&#39;\f316&#39;}.zmdi-view-array:before{content:&#39;\f317&#39;}.zmdi-view-carousel:before{content:&#39;\f318&#39;}.zmdi-view-column:before{content:&#39;\f319&#39;}.zmdi-view-comfy:before{content:&#39;\f31a&#39;}.zmdi-view-compact:before{content:&#39;\f31b&#39;}.zmdi-view-dashboard:before{content:&#39;\f31c&#39;}.zmdi-view-day:before{content:&#39;\f31d&#39;}.zmdi-view-headline:before{content:&#39;\f31e&#39;}.zmdi-view-list-alt:before{content:&#39;\f31f&#39;}.zmdi-view-list:before{content:&#39;\f320&#39;}.zmdi-view-module:before{content:&#39;\f321&#39;}.zmdi-view-quilt:before{content:&#39;\f322&#39;}.zmdi-view-stream:before{content:&#39;\f323&#39;}.zmdi-view-subtitles:before{content:&#39;\f324&#39;}.zmdi-view-toc:before{content:&#39;\f325&#39;}.zmdi-view-web:before{content:&#39;\f326&#39;}.zmdi-view-week:before{content:&#39;\f327&#39;}.zmdi-widgets:before{content:&#39;\f328&#39;}.zmdi-alarm-check:before{content:&#39;\f329&#39;}.zmdi-alarm-off:before{content:&#39;\f32a&#39;}.zmdi-alarm-plus:before{content:&#39;\f32b&#39;}.zmdi-alarm-snooze:before{content:&#39;\f32c&#39;}.zmdi-alarm:before{content:&#39;\f32d&#39;}.zmdi-calendar-alt:before{content:&#39;\f32e&#39;}.zmdi-calendar-check:before{content:&#39;\f32f&#39;}.zmdi-calendar-close:before{content:&#39;\f330&#39;}.zmdi-calendar-note:before{content:&#39;\f331&#39;}.zmdi-calendar:before{content:&#39;\f332&#39;}.zmdi-time-countdown:before{content:&#39;\f333&#39;}.zmdi-time-interval:before{content:&#39;\f334&#39;}.zmdi-time-restore-setting:before{content:&#39;\f335&#39;}.zmdi-time-restore:before{content:&#39;\f336&#39;}.zmdi-time:before{content:&#39;\f337&#39;}.zmdi-timer-off:before{content:&#39;\f338&#39;}.zmdi-timer:before{content:&#39;\f339&#39;}.zmdi-android-alt:before{content:&#39;\f33a&#39;}.zmdi-android:before{content:&#39;\f33b&#39;}.zmdi-apple:before{content:&#39;\f33c&#39;}.zmdi-behance:before{content:&#39;\f33d&#39;}.zmdi-codepen:before{content:&#39;\f33e&#39;}.zmdi-dribbble:before{content:&#39;\f33f&#39;}.zmdi-dropbox:before{content:&#39;\f340&#39;}.zmdi-evernote:before{content:&#39;\f341&#39;}.zmdi-facebook-box:before{content:&#39;\f342&#39;}.zmdi-facebook:before{content:&#39;\f343&#39;}.zmdi-github-box:before{content:&#39;\f344&#39;}.zmdi-github:before{content:&#39;\f345&#39;}.zmdi-google-drive:before{content:&#39;\f346&#39;}.zmdi-google-earth:before{content:&#39;\f347&#39;}.zmdi-google-glass:before{content:&#39;\f348&#39;}.zmdi-google-maps:before{content:&#39;\f349&#39;}.zmdi-google-pages:before{content:&#39;\f34a&#39;}.zmdi-google-play:before{content:&#39;\f34b&#39;}.zmdi-google-plus-box:before{content:&#39;\f34c&#39;}.zmdi-google-plus:before{content:&#39;\f34d&#39;}.zmdi-google:before{content:&#39;\f34e&#39;}.zmdi-instagram:before{content:&#39;\f34f&#39;}.zmdi-language-css3:before{content:&#39;\f350&#39;}.zmdi-language-html5:before{content:&#39;\f351&#39;}.zmdi-language-javascript:before{content:&#39;\f352&#39;}.zmdi-language-python-alt:before{content:&#39;\f353&#39;}.zmdi-language-python:before{content:&#39;\f354&#39;}.zmdi-lastfm:before{content:&#39;\f355&#39;}.zmdi-linkedin-box:before{content:&#39;\f356&#39;}.zmdi-paypal:before{content:&#39;\f357&#39;}.zmdi-pinterest-box:before{content:&#39;\f358&#39;}.zmdi-pocket:before{content:&#39;\f359&#39;}.zmdi-polymer:before{content:&#39;\f35a&#39;}.zmdi-share:before{content:&#39;\f35b&#39;}.zmdi-stack-overflow:before{content:&#39;\f35c&#39;}.zmdi-steam-square:before{content:&#39;\f35d&#39;}.zmdi-steam:before{content:&#39;\f35e&#39;}.zmdi-twitter-box:before{content:&#39;\f35f&#39;}.zmdi-twitter:before{content:&#39;\f360&#39;}.zmdi-vk:before{content:&#39;\f361&#39;}.zmdi-wikipedia:before{content:&#39;\f362&#39;}.zmdi-windows:before{content:&#39;\f363&#39;}.zmdi-aspect-ratio-alt:before{content:&#39;\f364&#39;}.zmdi-aspect-ratio:before{content:&#39;\f365&#39;}.zmdi-blur-circular:before{content:&#39;\f366&#39;}.zmdi-blur-linear:before{content:&#39;\f367&#39;}.zmdi-blur-off:before{content:&#39;\f368&#39;}.zmdi-blur:before{content:&#39;\f369&#39;}.zmdi-brightness-2:before{content:&#39;\f36a&#39;}.zmdi-brightness-3:before{content:&#39;\f36b&#39;}.zmdi-brightness-4:before{content:&#39;\f36c&#39;}.zmdi-brightness-5:before{content:&#39;\f36d&#39;}.zmdi-brightness-6:before{content:&#39;\f36e&#39;}.zmdi-brightness-7:before{content:&#39;\f36f&#39;}.zmdi-brightness-auto:before{content:&#39;\f370&#39;}.zmdi-brightness-setting:before{content:&#39;\f371&#39;}.zmdi-broken-image:before{content:&#39;\f372&#39;}.zmdi-center-focus-strong:before{content:&#39;\f373&#39;}.zmdi-center-focus-weak:before{content:&#39;\f374&#39;}.zmdi-compare:before{content:&#39;\f375&#39;}.zmdi-crop-16-9:before{content:&#39;\f376&#39;}.zmdi-crop-3-2:before{content:&#39;\f377&#39;}.zmdi-crop-5-4:before{content:&#39;\f378&#39;}.zmdi-crop-7-5:before{content:&#39;\f379&#39;}.zmdi-crop-din:before{content:&#39;\f37a&#39;}.zmdi-crop-free:before{content:&#39;\f37b&#39;}.zmdi-crop-landscape:before{content:&#39;\f37c&#39;}.zmdi-crop-portrait:before{content:&#39;\f37d&#39;}.zmdi-crop-square:before{content:&#39;\f37e&#39;}.zmdi-exposure-alt:before{content:&#39;\f37f&#39;}.zmdi-exposure:before{content:&#39;\f380&#39;}.zmdi-filter-b-and-w:before{content:&#39;\f381&#39;}.zmdi-filter-center-focus:before{content:&#39;\f382&#39;}.zmdi-filter-frames:before{content:&#39;\f383&#39;}.zmdi-filter-tilt-shift:before{content:&#39;\f384&#39;}.zmdi-gradient:before{content:&#39;\f385&#39;}.zmdi-grain:before{content:&#39;\f386&#39;}.zmdi-graphic-eq:before{content:&#39;\f387&#39;}.zmdi-hdr-off:before{content:&#39;\f388&#39;}.zmdi-hdr-strong:before{content:&#39;\f389&#39;}.zmdi-hdr-weak:before{content:&#39;\f38a&#39;}.zmdi-hdr:before{content:&#39;\f38b&#39;}.zmdi-iridescent:before{content:&#39;\f38c&#39;}.zmdi-leak-off:before{content:&#39;\f38d&#39;}.zmdi-leak:before{content:&#39;\f38e&#39;}.zmdi-looks:before{content:&#39;\f38f&#39;}.zmdi-loupe:before{content:&#39;\f390&#39;}.zmdi-panorama-horizontal:before{content:&#39;\f391&#39;}.zmdi-panorama-vertical:before{content:&#39;\f392&#39;}.zmdi-panorama-wide-angle:before{content:&#39;\f393&#39;}.zmdi-photo-size-select-large:before{content:&#39;\f394&#39;}.zmdi-photo-size-select-small:before{content:&#39;\f395&#39;}.zmdi-picture-in-picture:before{content:&#39;\f396&#39;}.zmdi-slideshow:before{content:&#39;\f397&#39;}.zmdi-texture:before{content:&#39;\f398&#39;}.zmdi-tonality:before{content:&#39;\f399&#39;}.zmdi-vignette:before{content:&#39;\f39a&#39;}.zmdi-wb-auto:before{content:&#39;\f39b&#39;}.zmdi-eject-alt:before{content:&#39;\f39c&#39;}.zmdi-eject:before{content:&#39;\f39d&#39;}.zmdi-equalizer:before{content:&#39;\f39e&#39;}.zmdi-fast-forward:before{content:&#39;\f39f&#39;}.zmdi-fast-rewind:before{content:&#39;\f3a0&#39;}.zmdi-forward-10:before{content:&#39;\f3a1&#39;}.zmdi-forward-30:before{content:&#39;\f3a2&#39;}.zmdi-forward-5:before{content:&#39;\f3a3&#39;}.zmdi-hearing:before{content:&#39;\f3a4&#39;}.zmdi-pause-circle-outline:before{content:&#39;\f3a5&#39;}.zmdi-pause-circle:before{content:&#39;\f3a6&#39;}.zmdi-pause:before{content:&#39;\f3a7&#39;}.zmdi-play-circle-outline:before{content:&#39;\f3a8&#39;}.zmdi-play-circle:before{content:&#39;\f3a9&#39;}.zmdi-play:before{content:&#39;\f3aa&#39;}.zmdi-playlist-audio:before{content:&#39;\f3ab&#39;}.zmdi-playlist-plus:before{content:&#39;\f3ac&#39;}.zmdi-repeat-one:before{content:&#39;\f3ad&#39;}.zmdi-repeat:before{content:&#39;\f3ae&#39;}.zmdi-replay-10:before{content:&#39;\f3af&#39;}.zmdi-replay-30:before{content:&#39;\f3b0&#39;}.zmdi-replay-5:before{content:&#39;\f3b1&#39;}.zmdi-replay:before{content:&#39;\f3b2&#39;}.zmdi-shuffle:before{content:&#39;\f3b3&#39;}.zmdi-skip-next:before{content:&#39;\f3b4&#39;}.zmdi-skip-previous:before{content:&#39;\f3b5&#39;}.zmdi-stop:before{content:&#39;\f3b6&#39;}.zmdi-surround-sound:before{content:&#39;\f3b7&#39;}.zmdi-tune:before{content:&#39;\f3b8&#39;}.zmdi-volume-down:before{content:&#39;\f3b9&#39;}.zmdi-volume-mute:before{content:&#39;\f3ba&#39;}.zmdi-volume-off:before{content:&#39;\f3bb&#39;}.zmdi-volume-up:before{content:&#39;\f3bc&#39;}.zmdi-n-1-square:before{content:&#39;\f3bd&#39;}.zmdi-n-2-square:before{content:&#39;\f3be&#39;}.zmdi-n-3-square:before{content:&#39;\f3bf&#39;}.zmdi-n-4-square:before{content:&#39;\f3c0&#39;}.zmdi-n-5-square:before{content:&#39;\f3c1&#39;}.zmdi-n-6-square:before{content:&#39;\f3c2&#39;}.zmdi-neg-1:before{content:&#39;\f3c3&#39;}.zmdi-neg-2:before{content:&#39;\f3c4&#39;}.zmdi-plus-1:before{content:&#39;\f3c5&#39;}.zmdi-plus-2:before{content:&#39;\f3c6&#39;}.zmdi-sec-10:before{content:&#39;\f3c7&#39;}.zmdi-sec-3:before{content:&#39;\f3c8&#39;}.zmdi-zero:before{content:&#39;\f3c9&#39;}.zmdi-airline-seat-flat-angled:before{content:&#39;\f3ca&#39;}.zmdi-airline-seat-flat:before{content:&#39;\f3cb&#39;}.zmdi-airline-seat-individual-suite:before{content:&#39;\f3cc&#39;}.zmdi-airline-seat-legroom-extra:before{content:&#39;\f3cd&#39;}.zmdi-airline-seat-legroom-normal:before{content:&#39;\f3ce&#39;}.zmdi-airline-seat-legroom-reduced:before{content:&#39;\f3cf&#39;}.zmdi-airline-seat-recline-extra:before{content:&#39;\f3d0&#39;}.zmdi-airline-seat-recline-normal:before{content:&#39;\f3d1&#39;}.zmdi-airplay:before{content:&#39;\f3d2&#39;}.zmdi-closed-caption:before{content:&#39;\f3d3&#39;}.zmdi-confirmation-number:before{content:&#39;\f3d4&#39;}.zmdi-developer-board:before{content:&#39;\f3d5&#39;}.zmdi-disc-full:before{content:&#39;\f3d6&#39;}.zmdi-explicit:before{content:&#39;\f3d7&#39;}.zmdi-flight-land:before{content:&#39;\f3d8&#39;}.zmdi-flight-takeoff:before{content:&#39;\f3d9&#39;}.zmdi-flip-to-back:before{content:&#39;\f3da&#39;}.zmdi-flip-to-front:before{content:&#39;\f3db&#39;}.zmdi-group-work:before{content:&#39;\f3dc&#39;}.zmdi-hd:before{content:&#39;\f3dd&#39;}.zmdi-hq:before{content:&#39;\f3de&#39;}.zmdi-markunread-mailbox:before{content:&#39;\f3df&#39;}.zmdi-memory:before{content:&#39;\f3e0&#39;}.zmdi-nfc:before{content:&#39;\f3e1&#39;}.zmdi-play-for-work:before{content:&#39;\f3e2&#39;}.zmdi-power-input:before{content:&#39;\f3e3&#39;}.zmdi-present-to-all:before{content:&#39;\f3e4&#39;}.zmdi-satellite:before{content:&#39;\f3e5&#39;}.zmdi-tap-and-play:before{content:&#39;\f3e6&#39;}.zmdi-vibration:before{content:&#39;\f3e7&#39;}.zmdi-voicemail:before{content:&#39;\f3e8&#39;}.zmdi-3d-rotation:before{content:&#39;\f101&#39;}.zmdi-airplane-off:before{content:&#39;\f102&#39;}.zmdi-airplane:before{content:&#39;\f103&#39;}.zmdi-album:before{content:&#39;\f104&#39;}.zmdi-archive:before{content:&#39;\f105&#39;}.zmdi-assignment-account:before{content:&#39;\f106&#39;}.zmdi-assignment-alert:before{content:&#39;\f107&#39;}.zmdi-assignment-check:before{content:&#39;\f108&#39;}.zmdi-assignment-o:before{content:&#39;\f109&#39;}.zmdi-assignment-return:before{content:&#39;\f10a&#39;}.zmdi-assignment-returned:before{content:&#39;\f10b&#39;}.zmdi-assignment:before{content:&#39;\f10c&#39;}.zmdi-attachment-alt:before{content:&#39;\f10d&#39;}.zmdi-attachment:before{content:&#39;\f10e&#39;}.zmdi-audio:before{content:&#39;\f10f&#39;}.zmdi-badge-check:before{content:&#39;\f110&#39;}.zmdi-balance-wallet:before{content:&#39;\f111&#39;}.zmdi-balance:before{content:&#39;\f112&#39;}.zmdi-battery-alert:before{content:&#39;\f113&#39;}.zmdi-battery-flash:before{content:&#39;\f114&#39;}.zmdi-battery-unknown:before{content:&#39;\f115&#39;}.zmdi-battery:before{content:&#39;\f116&#39;}.zmdi-bike:before{content:&#39;\f117&#39;}.zmdi-block-alt:before{content:&#39;\f118&#39;}.zmdi-block:before{content:&#39;\f119&#39;}.zmdi-boat:before{content:&#39;\f11a&#39;}.zmdi-book-image:before{content:&#39;\f11b&#39;}.zmdi-book:before{content:&#39;\f11c&#39;}.zmdi-bookmark-outline:before{content:&#39;\f11d&#39;}.zmdi-bookmark:before{content:&#39;\f11e&#39;}.zmdi-brush:before{content:&#39;\f11f&#39;}.zmdi-bug:before{content:&#39;\f120&#39;}.zmdi-bus:before{content:&#39;\f121&#39;}.zmdi-cake:before{content:&#39;\f122&#39;}.zmdi-car-taxi:before{content:&#39;\f123&#39;}.zmdi-car-wash:before{content:&#39;\f124&#39;}.zmdi-car:before{content:&#39;\f125&#39;}.zmdi-card-giftcard:before{content:&#39;\f126&#39;}.zmdi-card-membership:before{content:&#39;\f127&#39;}.zmdi-card-travel:before{content:&#39;\f128&#39;}.zmdi-card:before{content:&#39;\f129&#39;}.zmdi-case-check:before{content:&#39;\f12a&#39;}.zmdi-case-download:before{content:&#39;\f12b&#39;}.zmdi-case-play:before{content:&#39;\f12c&#39;}.zmdi-case:before{content:&#39;\f12d&#39;}.zmdi-cast-connected:before{content:&#39;\f12e&#39;}.zmdi-cast:before{content:&#39;\f12f&#39;}.zmdi-chart-donut:before{content:&#39;\f130&#39;}.zmdi-chart:before{content:&#39;\f131&#39;}.zmdi-city-alt:before{content:&#39;\f132&#39;}.zmdi-city:before{content:&#39;\f133&#39;}.zmdi-close-circle-o:before{content:&#39;\f134&#39;}.zmdi-close-circle:before{content:&#39;\f135&#39;}.zmdi-close:before{content:&#39;\f136&#39;}.zmdi-cocktail:before{content:&#39;\f137&#39;}.zmdi-code-setting:before{content:&#39;\f138&#39;}.zmdi-code-smartphone:before{content:&#39;\f139&#39;}.zmdi-code:before{content:&#39;\f13a&#39;}.zmdi-coffee:before{content:&#39;\f13b&#39;}.zmdi-collection-bookmark:before{content:&#39;\f13c&#39;}.zmdi-collection-case-play:before{content:&#39;\f13d&#39;}.zmdi-collection-folder-image:before{content:&#39;\f13e&#39;}.zmdi-collection-image-o:before{content:&#39;\f13f&#39;}.zmdi-collection-image:before{content:&#39;\f140&#39;}.zmdi-collection-item-1:before{content:&#39;\f141&#39;}.zmdi-collection-item-2:before{content:&#39;\f142&#39;}.zmdi-collection-item-3:before{content:&#39;\f143&#39;}.zmdi-collection-item-4:before{content:&#39;\f144&#39;}.zmdi-collection-item-5:before{content:&#39;\f145&#39;}.zmdi-collection-item-6:before{content:&#39;\f146&#39;}.zmdi-collection-item-7:before{content:&#39;\f147&#39;}.zmdi-collection-item-8:before{content:&#39;\f148&#39;}.zmdi-collection-item-9-plus:before{content:&#39;\f149&#39;}.zmdi-collection-item-9:before{content:&#39;\f14a&#39;}.zmdi-collection-item:before{content:&#39;\f14b&#39;}.zmdi-collection-music:before{content:&#39;\f14c&#39;}.zmdi-collection-pdf:before{content:&#39;\f14d&#39;}.zmdi-collection-plus:before{content:&#39;\f14e&#39;}.zmdi-collection-speaker:before{content:&#39;\f14f&#39;}.zmdi-collection-text:before{content:&#39;\f150&#39;}.zmdi-collection-video:before{content:&#39;\f151&#39;}.zmdi-compass:before{content:&#39;\f152&#39;}.zmdi-cutlery:before{content:&#39;\f153&#39;}.zmdi-delete:before{content:&#39;\f154&#39;}.zmdi-dialpad:before{content:&#39;\f155&#39;}.zmdi-dns:before{content:&#39;\f156&#39;}.zmdi-drink:before{content:&#39;\f157&#39;}.zmdi-edit:before{content:&#39;\f158&#39;}.zmdi-email-open:before{content:&#39;\f159&#39;}.zmdi-email:before{content:&#39;\f15a&#39;}.zmdi-eye-off:before{content:&#39;\f15b&#39;}.zmdi-eye:before{content:&#39;\f15c&#39;}.zmdi-eyedropper:before{content:&#39;\f15d&#39;}.zmdi-favorite-outline:before{content:&#39;\f15e&#39;}.zmdi-favorite:before{content:&#39;\f15f&#39;}.zmdi-filter-list:before{content:&#39;\f160&#39;}.zmdi-fire:before{content:&#39;\f161&#39;}.zmdi-flag:before{content:&#39;\f162&#39;}.zmdi-flare:before{content:&#39;\f163&#39;}.zmdi-flash-auto:before{content:&#39;\f164&#39;}.zmdi-flash-off:before{content:&#39;\f165&#39;}.zmdi-flash:before{content:&#39;\f166&#39;}.zmdi-flip:before{content:&#39;\f167&#39;}.zmdi-flower-alt:before{content:&#39;\f168&#39;}.zmdi-flower:before{content:&#39;\f169&#39;}.zmdi-font:before{content:&#39;\f16a&#39;}.zmdi-fullscreen-alt:before{content:&#39;\f16b&#39;}.zmdi-fullscreen-exit:before{content:&#39;\f16c&#39;}.zmdi-fullscreen:before{content:&#39;\f16d&#39;}.zmdi-functions:before{content:&#39;\f16e&#39;}.zmdi-gas-station:before{content:&#39;\f16f&#39;}.zmdi-gesture:before{content:&#39;\f170&#39;}.zmdi-globe-alt:before{content:&#39;\f171&#39;}.zmdi-globe-lock:before{content:&#39;\f172&#39;}.zmdi-globe:before{content:&#39;\f173&#39;}.zmdi-graduation-cap:before{content:&#39;\f174&#39;}.zmdi-home:before{content:&#39;\f175&#39;}.zmdi-hospital-alt:before{content:&#39;\f176&#39;}.zmdi-hospital:before{content:&#39;\f177&#39;}.zmdi-hotel:before{content:&#39;\f178&#39;}.zmdi-hourglass-alt:before{content:&#39;\f179&#39;}.zmdi-hourglass-outline:before{content:&#39;\f17a&#39;}.zmdi-hourglass:before{content:&#39;\f17b&#39;}.zmdi-http:before{content:&#39;\f17c&#39;}.zmdi-image-alt:before{content:&#39;\f17d&#39;}.zmdi-image-o:before{content:&#39;\f17e&#39;}.zmdi-image:before{content:&#39;\f17f&#39;}.zmdi-inbox:before{content:&#39;\f180&#39;}.zmdi-invert-colors-off:before{content:&#39;\f181&#39;}.zmdi-invert-colors:before{content:&#39;\f182&#39;}.zmdi-key:before{content:&#39;\f183&#39;}.zmdi-label-alt-outline:before{content:&#39;\f184&#39;}.zmdi-label-alt:before{content:&#39;\f185&#39;}.zmdi-label-heart:before{content:&#39;\f186&#39;}.zmdi-label:before{content:&#39;\f187&#39;}.zmdi-labels:before{content:&#39;\f188&#39;}.zmdi-lamp:before{content:&#39;\f189&#39;}.zmdi-landscape:before{content:&#39;\f18a&#39;}.zmdi-layers-off:before{content:&#39;\f18b&#39;}.zmdi-layers:before{content:&#39;\f18c&#39;}.zmdi-library:before{content:&#39;\f18d&#39;}.zmdi-link:before{content:&#39;\f18e&#39;}.zmdi-lock-open:before{content:&#39;\f18f&#39;}.zmdi-lock-outline:before{content:&#39;\f190&#39;}.zmdi-lock:before{content:&#39;\f191&#39;}.zmdi-mail-reply-all:before{content:&#39;\f192&#39;}.zmdi-mail-reply:before{content:&#39;\f193&#39;}.zmdi-mail-send:before{content:&#39;\f194&#39;}.zmdi-mall:before{content:&#39;\f195&#39;}.zmdi-map:before{content:&#39;\f196&#39;}.zmdi-menu:before{content:&#39;\f197&#39;}.zmdi-money-box:before{content:&#39;\f198&#39;}.zmdi-money-off:before{content:&#39;\f199&#39;}.zmdi-money:before{content:&#39;\f19a&#39;}.zmdi-more-vert:before{content:&#39;\f19b&#39;}.zmdi-more:before{content:&#39;\f19c&#39;}.zmdi-movie-alt:before{content:&#39;\f19d&#39;}.zmdi-movie:before{content:&#39;\f19e&#39;}.zmdi-nature-people:before{content:&#39;\f19f&#39;}.zmdi-nature:before{content:&#39;\f1a0&#39;}.zmdi-navigation:before{content:&#39;\f1a1&#39;}.zmdi-open-in-browser:before{content:&#39;\f1a2&#39;}.zmdi-open-in-new:before{content:&#39;\f1a3&#39;}.zmdi-palette:before{content:&#39;\f1a4&#39;}.zmdi-parking:before{content:&#39;\f1a5&#39;}.zmdi-pin-account:before{content:&#39;\f1a6&#39;}.zmdi-pin-assistant:before{content:&#39;\f1a7&#39;}.zmdi-pin-drop:before{content:&#39;\f1a8&#39;}.zmdi-pin-help:before{content:&#39;\f1a9&#39;}.zmdi-pin-off:before{content:&#39;\f1aa&#39;}.zmdi-pin:before{content:&#39;\f1ab&#39;}.zmdi-pizza:before{content:&#39;\f1ac&#39;}.zmdi-plaster:before{content:&#39;\f1ad&#39;}.zmdi-power-setting:before{content:&#39;\f1ae&#39;}.zmdi-power:before{content:&#39;\f1af&#39;}.zmdi-print:before{content:&#39;\f1b0&#39;}.zmdi-puzzle-piece:before{content:&#39;\f1b1&#39;}.zmdi-quote:before{content:&#39;\f1b2&#39;}.zmdi-railway:before{content:&#39;\f1b3&#39;}.zmdi-receipt:before{content:&#39;\f1b4&#39;}.zmdi-refresh-alt:before{content:&#39;\f1b5&#39;}.zmdi-refresh-sync-alert:before{content:&#39;\f1b6&#39;}.zmdi-refresh-sync-off:before{content:&#39;\f1b7&#39;}.zmdi-refresh-sync:before{content:&#39;\f1b8&#39;}.zmdi-refresh:before{content:&#39;\f1b9&#39;}.zmdi-roller:before{content:&#39;\f1ba&#39;}.zmdi-ruler:before{content:&#39;\f1bb&#39;}.zmdi-scissors:before{content:&#39;\f1bc&#39;}.zmdi-screen-rotation-lock:before{content:&#39;\f1bd&#39;}.zmdi-screen-rotation:before{content:&#39;\f1be&#39;}.zmdi-search-for:before{content:&#39;\f1bf&#39;}.zmdi-search-in-file:before{content:&#39;\f1c0&#39;}.zmdi-search-in-page:before{content:&#39;\f1c1&#39;}.zmdi-search-replace:before{content:&#39;\f1c2&#39;}.zmdi-search:before{content:&#39;\f1c3&#39;}.zmdi-seat:before{content:&#39;\f1c4&#39;}.zmdi-settings-square:before{content:&#39;\f1c5&#39;}.zmdi-settings:before{content:&#39;\f1c6&#39;}.zmdi-shield-check:before{content:&#39;\f1c7&#39;}.zmdi-shield-security:before{content:&#39;\f1c8&#39;}.zmdi-shopping-basket:before{content:&#39;\f1c9&#39;}.zmdi-shopping-cart-plus:before{content:&#39;\f1ca&#39;}.zmdi-shopping-cart:before{content:&#39;\f1cb&#39;}.zmdi-sign-in:before{content:&#39;\f1cc&#39;}.zmdi-sort-amount-asc:before{content:&#39;\f1cd&#39;}.zmdi-sort-amount-desc:before{content:&#39;\f1ce&#39;}.zmdi-sort-asc:before{content:&#39;\f1cf&#39;}.zmdi-sort-desc:before{content:&#39;\f1d0&#39;}.zmdi-spellcheck:before{content:&#39;\f1d1&#39;}.zmdi-storage:before{content:&#39;\f1d2&#39;}.zmdi-store-24:before{content:&#39;\f1d3&#39;}.zmdi-store:before{content:&#39;\f1d4&#39;}.zmdi-subway:before{content:&#39;\f1d5&#39;}.zmdi-sun:before{content:&#39;\f1d6&#39;}.zmdi-tab-unselected:before{content:&#39;\f1d7&#39;}.zmdi-tab:before{content:&#39;\f1d8&#39;}.zmdi-tag-close:before{content:&#39;\f1d9&#39;}.zmdi-tag-more:before{content:&#39;\f1da&#39;}.zmdi-tag:before{content:&#39;\f1db&#39;}.zmdi-thumb-down:before{content:&#39;\f1dc&#39;}.zmdi-thumb-up-down:before{content:&#39;\f1dd&#39;}.zmdi-thumb-up:before{content:&#39;\f1de&#39;}.zmdi-ticket-star:before{content:&#39;\f1df&#39;}.zmdi-toll:before{content:&#39;\f1e0&#39;}.zmdi-toys:before{content:&#39;\f1e1&#39;}.zmdi-traffic:before{content:&#39;\f1e2&#39;}.zmdi-translate:before{content:&#39;\f1e3&#39;}.zmdi-triangle-down:before{content:&#39;\f1e4&#39;}.zmdi-triangle-up:before{content:&#39;\f1e5&#39;}.zmdi-truck:before{content:&#39;\f1e6&#39;}.zmdi-turning-sign:before{content:&#39;\f1e7&#39;}.zmdi-wallpaper:before{content:&#39;\f1e8&#39;}.zmdi-washing-machine:before{content:&#39;\f1e9&#39;}.zmdi-window-maximize:before{content:&#39;\f1ea&#39;}.zmdi-window-minimize:before{content:&#39;\f1eb&#39;}.zmdi-window-restore:before{content:&#39;\f1ec&#39;}.zmdi-wrench:before{content:&#39;\f1ed&#39;}.zmdi-zoom-in:before{content:&#39;\f1ee&#39;}.zmdi-zoom-out:before{content:&#39;\f1ef&#39;}.zmdi-alert-circle-o:before{content:&#39;\f1f0&#39;}.zmdi-alert-circle:before{content:&#39;\f1f1&#39;}.zmdi-alert-octagon:before{content:&#39;\f1f2&#39;}.zmdi-alert-polygon:before{content:&#39;\f1f3&#39;}.zmdi-alert-triangle:before{content:&#39;\f1f4&#39;}.zmdi-help-outline:before{content:&#39;\f1f5&#39;}.zmdi-help:before{content:&#39;\f1f6&#39;}.zmdi-info-outline:before{content:&#39;\f1f7&#39;}.zmdi-info:before{content:&#39;\f1f8&#39;}.zmdi-notifications-active:before{content:&#39;\f1f9&#39;}.zmdi-notifications-add:before{content:&#39;\f1fa&#39;}.zmdi-notifications-none:before{content:&#39;\f1fb&#39;}.zmdi-notifications-off:before{content:&#39;\f1fc&#39;}.zmdi-notifications-paused:before{content:&#39;\f1fd&#39;}.zmdi-notifications:before{content:&#39;\f1fe&#39;}.zmdi-account-add:before{content:&#39;\f1ff&#39;}.zmdi-account-box-mail:before{content:&#39;\f200&#39;}.zmdi-account-box-o:before{content:&#39;\f201&#39;}.zmdi-account-box-phone:before{content:&#39;\f202&#39;}.zmdi-account-box:before{content:&#39;\f203&#39;}.zmdi-account-calendar:before{content:&#39;\f204&#39;}.zmdi-account-circle:before{content:&#39;\f205&#39;}.zmdi-account-o:before{content:&#39;\f206&#39;}.zmdi-account:before{content:&#39;\f207&#39;}.zmdi-accounts-add:before{content:&#39;\f208&#39;}.zmdi-accounts-alt:before{content:&#39;\f209&#39;}.zmdi-accounts-list-alt:before{content:&#39;\f20a&#39;}.zmdi-accounts-list:before{content:&#39;\f20b&#39;}.zmdi-accounts-outline:before{content:&#39;\f20c&#39;}.zmdi-accounts:before{content:&#39;\f20d&#39;}.zmdi-face:before{content:&#39;\f20e&#39;}.zmdi-female:before{content:&#39;\f20f&#39;}.zmdi-male-alt:before{content:&#39;\f210&#39;}.zmdi-male-female:before{content:&#39;\f211&#39;}.zmdi-male:before{content:&#39;\f212&#39;}.zmdi-mood-bad:before{content:&#39;\f213&#39;}.zmdi-mood:before{content:&#39;\f214&#39;}.zmdi-run:before{content:&#39;\f215&#39;}.zmdi-walk:before{content:&#39;\f216&#39;}.zmdi-cloud-box:before{content:&#39;\f217&#39;}.zmdi-cloud-circle:before{content:&#39;\f218&#39;}.zmdi-cloud-done:before{content:&#39;\f219&#39;}.zmdi-cloud-download:before{content:&#39;\f21a&#39;}.zmdi-cloud-off:before{content:&#39;\f21b&#39;}.zmdi-cloud-outline-alt:before{content:&#39;\f21c&#39;}.zmdi-cloud-outline:before{content:&#39;\f21d&#39;}.zmdi-cloud-upload:before{content:&#39;\f21e&#39;}.zmdi-cloud:before{content:&#39;\f21f&#39;}.zmdi-download:before{content:&#39;\f220&#39;}.zmdi-file-plus:before{content:&#39;\f221&#39;}.zmdi-file-text:before{content:&#39;\f222&#39;}.zmdi-file:before{content:&#39;\f223&#39;}.zmdi-folder-outline:before{content:&#39;\f224&#39;}.zmdi-folder-person:before{content:&#39;\f225&#39;}.zmdi-folder-star-alt:before{content:&#39;\f226&#39;}.zmdi-folder-star:before{content:&#39;\f227&#39;}.zmdi-folder:before{content:&#39;\f228&#39;}.zmdi-gif:before{content:&#39;\f229&#39;}.zmdi-upload:before{content:&#39;\f22a&#39;}.zmdi-border-all:before{content:&#39;\f22b&#39;}.zmdi-border-bottom:before{content:&#39;\f22c&#39;}.zmdi-border-clear:before{content:&#39;\f22d&#39;}.zmdi-border-color:before{content:&#39;\f22e&#39;}.zmdi-border-horizontal:before{content:&#39;\f22f&#39;}.zmdi-border-inner:before{content:&#39;\f230&#39;}.zmdi-border-left:before{content:&#39;\f231&#39;}.zmdi-border-outer:before{content:&#39;\f232&#39;}.zmdi-border-right:before{content:&#39;\f233&#39;}.zmdi-border-style:before{content:&#39;\f234&#39;}.zmdi-border-top:before{content:&#39;\f235&#39;}.zmdi-border-vertical:before{content:&#39;\f236&#39;}.zmdi-copy:before{content:&#39;\f237&#39;}.zmdi-crop:before{content:&#39;\f238&#39;}.zmdi-format-align-center:before{content:&#39;\f239&#39;}.zmdi-format-align-justify:before{content:&#39;\f23a&#39;}.zmdi-format-align-left:before{content:&#39;\f23b&#39;}.zmdi-format-align-right:before{content:&#39;\f23c&#39;}.zmdi-format-bold:before{content:&#39;\f23d&#39;}.zmdi-format-clear-all:before{content:&#39;\f23e&#39;}.zmdi-format-clear:before{content:&#39;\f23f&#39;}.zmdi-format-color-fill:before{content:&#39;\f240&#39;}.zmdi-format-color-reset:before{content:&#39;\f241&#39;}.zmdi-format-color-text:before{content:&#39;\f242&#39;}.zmdi-format-indent-decrease:before{content:&#39;\f243&#39;}.zmdi-format-indent-increase:before{content:&#39;\f244&#39;}.zmdi-format-italic:before{content:&#39;\f245&#39;}.zmdi-format-line-spacing:before{content:&#39;\f246&#39;}.zmdi-format-list-bulleted:before{content:&#39;\f247&#39;}.zmdi-format-list-numbered:before{content:&#39;\f248&#39;}.zmdi-format-ltr:before{content:&#39;\f249&#39;}.zmdi-format-rtl:before{content:&#39;\f24a&#39;}.zmdi-format-size:before{content:&#39;\f24b&#39;}.zmdi-format-strikethrough-s:before{content:&#39;\f24c&#39;}.zmdi-format-strikethrough:before{content:&#39;\f24d&#39;}.zmdi-format-subject:before{content:&#39;\f24e&#39;}.zmdi-format-underlined:before{content:&#39;\f24f&#39;}.zmdi-format-valign-bottom:before{content:&#39;\f250&#39;}.zmdi-format-valign-center:before{content:&#39;\f251&#39;}.zmdi-format-valign-top:before{content:&#39;\f252&#39;}.zmdi-redo:before{content:&#39;\f253&#39;}.zmdi-select-all:before{content:&#39;\f254&#39;}.zmdi-space-bar:before{content:&#39;\f255&#39;}.zmdi-text-format:before{content:&#39;\f256&#39;}.zmdi-transform:before{content:&#39;\f257&#39;}.zmdi-undo:before{content:&#39;\f258&#39;}.zmdi-wrap-text:before{content:&#39;\f259&#39;}.zmdi-comment-alert:before{content:&#39;\f25a&#39;}.zmdi-comment-alt-text:before{content:&#39;\f25b&#39;}.zmdi-comment-alt:before{content:&#39;\f25c&#39;}.zmdi-comment-edit:before{content:&#39;\f25d&#39;}.zmdi-comment-image:before{content:&#39;\f25e&#39;}.zmdi-comment-list:before{content:&#39;\f25f&#39;}.zmdi-comment-more:before{content:&#39;\f260&#39;}.zmdi-comment-outline:before{content:&#39;\f261&#39;}.zmdi-comment-text-alt:before{content:&#39;\f262&#39;}.zmdi-comment-text:before{content:&#39;\f263&#39;}.zmdi-comment-video:before{content:&#39;\f264&#39;}.zmdi-comment:before{content:&#39;\f265&#39;}.zmdi-comments:before{content:&#39;\f266&#39;}.zmdi-check-all:before{content:&#39;\f267&#39;}.zmdi-check-circle-u:before{content:&#39;\f268&#39;}.zmdi-check-circle:before{content:&#39;\f269&#39;}.zmdi-check-square:before{content:&#39;\f26a&#39;}.zmdi-check:before{content:&#39;\f26b&#39;}.zmdi-circle-o:before{content:&#39;\f26c&#39;}.zmdi-circle:before{content:&#39;\f26d&#39;}.zmdi-dot-circle-alt:before{content:&#39;\f26e&#39;}.zmdi-dot-circle:before{content:&#39;\f26f&#39;}.zmdi-minus-circle-outline:before{content:&#39;\f270&#39;}.zmdi-minus-circle:before{content:&#39;\f271&#39;}.zmdi-minus-square:before{content:&#39;\f272&#39;}.zmdi-minus:before{content:&#39;\f273&#39;}.zmdi-plus-circle-o-duplicate:before{content:&#39;\f274&#39;}.zmdi-plus-circle-o:before{content:&#39;\f275&#39;}.zmdi-plus-circle:before{content:&#39;\f276&#39;}.zmdi-plus-square:before{content:&#39;\f277&#39;}.zmdi-plus:before{content:&#39;\f278&#39;}.zmdi-square-o:before{content:&#39;\f279&#39;}.zmdi-star-circle:before{content:&#39;\f27a&#39;}.zmdi-star-half:before{content:&#39;\f27b&#39;}.zmdi-star-outline:before{content:&#39;\f27c&#39;}.zmdi-star:before{content:&#39;\f27d&#39;}.zmdi-bluetooth-connected:before{content:&#39;\f27e&#39;}.zmdi-bluetooth-off:before{content:&#39;\f27f&#39;}.zmdi-bluetooth-search:before{content:&#39;\f280&#39;}.zmdi-bluetooth-setting:before{content:&#39;\f281&#39;}.zmdi-bluetooth:before{content:&#39;\f282&#39;}.zmdi-camera-add:before{content:&#39;\f283&#39;}.zmdi-camera-alt:before{content:&#39;\f284&#39;}.zmdi-camera-bw:before{content:&#39;\f285&#39;}.zmdi-camera-front:before{content:&#39;\f286&#39;}.zmdi-camera-mic:before{content:&#39;\f287&#39;}.zmdi-camera-party-mode:before{content:&#39;\f288&#39;}.zmdi-camera-rear:before{content:&#39;\f289&#39;}.zmdi-camera-roll:before{content:&#39;\f28a&#39;}.zmdi-camera-switch:before{content:&#39;\f28b&#39;}.zmdi-camera:before{content:&#39;\f28c&#39;}.zmdi-card-alert:before{content:&#39;\f28d&#39;}.zmdi-card-off:before{content:&#39;\f28e&#39;}.zmdi-card-sd:before{content:&#39;\f28f&#39;}.zmdi-card-sim:before{content:&#39;\f290&#39;}.zmdi-desktop-mac:before{content:&#39;\f291&#39;}.zmdi-desktop-windows:before{content:&#39;\f292&#39;}.zmdi-device-hub:before{content:&#39;\f293&#39;}.zmdi-devices-off:before{content:&#39;\f294&#39;}.zmdi-devices:before{content:&#39;\f295&#39;}.zmdi-dock:before{content:&#39;\f296&#39;}.zmdi-floppy:before{content:&#39;\f297&#39;}.zmdi-gamepad:before{content:&#39;\f298&#39;}.zmdi-gps-dot:before{content:&#39;\f299&#39;}.zmdi-gps-off:before{content:&#39;\f29a&#39;}.zmdi-gps:before{content:&#39;\f29b&#39;}.zmdi-headset-mic:before{content:&#39;\f29c&#39;}.zmdi-headset:before{content:&#39;\f29d&#39;}.zmdi-input-antenna:before{content:&#39;\f29e&#39;}.zmdi-input-composite:before{content:&#39;\f29f&#39;}.zmdi-input-hdmi:before{content:&#39;\f2a0&#39;}.zmdi-input-power:before{content:&#39;\f2a1&#39;}.zmdi-input-svideo:before{content:&#39;\f2a2&#39;}.zmdi-keyboard-hide:before{content:&#39;\f2a3&#39;}.zmdi-keyboard:before{content:&#39;\f2a4&#39;}.zmdi-laptop-chromebook:before{content:&#39;\f2a5&#39;}.zmdi-laptop-mac:before{content:&#39;\f2a6&#39;}.zmdi-laptop:before{content:&#39;\f2a7&#39;}.zmdi-mic-off:before{content:&#39;\f2a8&#39;}.zmdi-mic-outline:before{content:&#39;\f2a9&#39;}.zmdi-mic-setting:before{content:&#39;\f2aa&#39;}.zmdi-mic:before{content:&#39;\f2ab&#39;}.zmdi-mouse:before{content:&#39;\f2ac&#39;}.zmdi-network-alert:before{content:&#39;\f2ad&#39;}.zmdi-network-locked:before{content:&#39;\f2ae&#39;}.zmdi-network-off:before{content:&#39;\f2af&#39;}.zmdi-network-outline:before{content:&#39;\f2b0&#39;}.zmdi-network-setting:before{content:&#39;\f2b1&#39;}.zmdi-network:before{content:&#39;\f2b2&#39;}.zmdi-phone-bluetooth:before{content:&#39;\f2b3&#39;}.zmdi-phone-end:before{content:&#39;\f2b4&#39;}.zmdi-phone-forwarded:before{content:&#39;\f2b5&#39;}.zmdi-phone-in-talk:before{content:&#39;\f2b6&#39;}.zmdi-phone-locked:before{content:&#39;\f2b7&#39;}.zmdi-phone-missed:before{content:&#39;\f2b8&#39;}.zmdi-phone-msg:before{content:&#39;\f2b9&#39;}.zmdi-phone-paused:before{content:&#39;\f2ba&#39;}.zmdi-phone-ring:before{content:&#39;\f2bb&#39;}.zmdi-phone-setting:before{content:&#39;\f2bc&#39;}.zmdi-phone-sip:before{content:&#39;\f2bd&#39;}.zmdi-phone:before{content:&#39;\f2be&#39;}.zmdi-portable-wifi-changes:before{content:&#39;\f2bf&#39;}.zmdi-portable-wifi-off:before{content:&#39;\f2c0&#39;}.zmdi-portable-wifi:before{content:&#39;\f2c1&#39;}.zmdi-radio:before{content:&#39;\f2c2&#39;}.zmdi-reader:before{content:&#39;\f2c3&#39;}.zmdi-remote-control-alt:before{content:&#39;\f2c4&#39;}.zmdi-remote-control:before{content:&#39;\f2c5&#39;}.zmdi-router:before{content:&#39;\f2c6&#39;}.zmdi-scanner:before{content:&#39;\f2c7&#39;}.zmdi-smartphone-android:before{content:&#39;\f2c8&#39;}.zmdi-smartphone-download:before{content:&#39;\f2c9&#39;}.zmdi-smartphone-erase:before{content:&#39;\f2ca&#39;}.zmdi-smartphone-info:before{content:&#39;\f2cb&#39;}.zmdi-smartphone-iphone:before{content:&#39;\f2cc&#39;}.zmdi-smartphone-landscape-lock:before{content:&#39;\f2cd&#39;}.zmdi-smartphone-landscape:before{content:&#39;\f2ce&#39;}.zmdi-smartphone-lock:before{content:&#39;\f2cf&#39;}.zmdi-smartphone-portrait-lock:before{content:&#39;\f2d0&#39;}.zmdi-smartphone-ring:before{content:&#39;\f2d1&#39;}.zmdi-smartphone-setting:before{content:&#39;\f2d2&#39;}.zmdi-smartphone-setup:before{content:&#39;\f2d3&#39;}.zmdi-smartphone:before{content:&#39;\f2d4&#39;}.zmdi-speaker:before{content:&#39;\f2d5&#39;}.zmdi-tablet-android:before{content:&#39;\f2d6&#39;}.zmdi-tablet-mac:before{content:&#39;\f2d7&#39;}.zmdi-tablet:before{content:&#39;\f2d8&#39;}.zmdi-tv-alt-play:before{content:&#39;\f2d9&#39;}.zmdi-tv-list:before{content:&#39;\f2da&#39;}.zmdi-tv-play:before{content:&#39;\f2db&#39;}.zmdi-tv:before{content:&#39;\f2dc&#39;}.zmdi-usb:before{content:&#39;\f2dd&#39;}.zmdi-videocam-off:before{content:&#39;\f2de&#39;}.zmdi-videocam-switch:before{content:&#39;\f2df&#39;}.zmdi-videocam:before{content:&#39;\f2e0&#39;}.zmdi-watch:before{content:&#39;\f2e1&#39;}.zmdi-wifi-alt-2:before{content:&#39;\f2e2&#39;}.zmdi-wifi-alt:before{content:&#39;\f2e3&#39;}.zmdi-wifi-info:before{content:&#39;\f2e4&#39;}.zmdi-wifi-lock:before{content:&#39;\f2e5&#39;}.zmdi-wifi-off:before{content:&#39;\f2e6&#39;}.zmdi-wifi-outline:before{content:&#39;\f2e7&#39;}.zmdi-wifi:before{content:&#39;\f2e8&#39;}.zmdi-arrow-left-bottom:before{content:&#39;\f2e9&#39;}.zmdi-arrow-left:before{content:&#39;\f2ea&#39;}.zmdi-arrow-merge:before{content:&#39;\f2eb&#39;}.zmdi-arrow-missed:before{content:&#39;\f2ec&#39;}.zmdi-arrow-right-top:before{content:&#39;\f2ed&#39;}.zmdi-arrow-right:before{content:&#39;\f2ee&#39;}.zmdi-arrow-split:before{content:&#39;\f2ef&#39;}.zmdi-arrows:before{content:&#39;\f2f0&#39;}.zmdi-caret-down-circle:before{content:&#39;\f2f1&#39;}.zmdi-caret-down:before{content:&#39;\f2f2&#39;}.zmdi-caret-left-circle:before{content:&#39;\f2f3&#39;}.zmdi-caret-left:before{content:&#39;\f2f4&#39;}.zmdi-caret-right-circle:before{content:&#39;\f2f5&#39;}.zmdi-caret-right:before{content:&#39;\f2f6&#39;}.zmdi-caret-up-circle:before{content:&#39;\f2f7&#39;}.zmdi-caret-up:before{content:&#39;\f2f8&#39;}.zmdi-chevron-down:before{content:&#39;\f2f9&#39;}.zmdi-chevron-left:before{content:&#39;\f2fa&#39;}.zmdi-chevron-right:before{content:&#39;\f2fb&#39;}.zmdi-chevron-up:before{content:&#39;\f2fc&#39;}.zmdi-forward:before{content:&#39;\f2fd&#39;}.zmdi-long-arrow-down:before{content:&#39;\f2fe&#39;}.zmdi-long-arrow-left:before{content:&#39;\f2ff&#39;}.zmdi-long-arrow-return:before{content:&#39;\f300&#39;}.zmdi-long-arrow-right:before{content:&#39;\f301&#39;}.zmdi-long-arrow-tab:before{content:&#39;\f302&#39;}.zmdi-long-arrow-up:before{content:&#39;\f303&#39;}.zmdi-rotate-ccw:before{content:&#39;\f304&#39;}.zmdi-rotate-cw:before{content:&#39;\f305&#39;}.zmdi-rotate-left:before{content:&#39;\f306&#39;}.zmdi-rotate-right:before{content:&#39;\f307&#39;}.zmdi-square-down:before{content:&#39;\f308&#39;}.zmdi-square-right:before{content:&#39;\f309&#39;}.zmdi-swap-alt:before{content:&#39;\f30a&#39;}.zmdi-swap-vertical-circle:before{content:&#39;\f30b&#39;}.zmdi-swap-vertical:before{content:&#39;\f30c&#39;}.zmdi-swap:before{content:&#39;\f30d&#39;}.zmdi-trending-down:before{content:&#39;\f30e&#39;}.zmdi-trending-flat:before{content:&#39;\f30f&#39;}.zmdi-trending-up:before{content:&#39;\f310&#39;}.zmdi-unfold-less:before{content:&#39;\f311&#39;}.zmdi-unfold-more:before{content:&#39;\f312&#39;}.zmdi-apps:before{content:&#39;\f313&#39;}.zmdi-grid-off:before{content:&#39;\f314&#39;}.zmdi-grid:before{content:&#39;\f315&#39;}.zmdi-view-agenda:before{content:&#39;\f316&#39;}.zmdi-view-array:before{content:&#39;\f317&#39;}.zmdi-view-carousel:before{content:&#39;\f318&#39;}.zmdi-view-column:before{content:&#39;\f319&#39;}.zmdi-view-comfy:before{content:&#39;\f31a&#39;}.zmdi-view-compact:before{content:&#39;\f31b&#39;}.zmdi-view-dashboard:before{content:&#39;\f31c&#39;}.zmdi-view-day:before{content:&#39;\f31d&#39;}.zmdi-view-headline:before{content:&#39;\f31e&#39;}.zmdi-view-list-alt:before{content:&#39;\f31f&#39;}.zmdi-view-list:before{content:&#39;\f320&#39;}.zmdi-view-module:before{content:&#39;\f321&#39;}.zmdi-view-quilt:before{content:&#39;\f322&#39;}.zmdi-view-stream:before{content:&#39;\f323&#39;}.zmdi-view-subtitles:before{content:&#39;\f324&#39;}.zmdi-view-toc:before{content:&#39;\f325&#39;}.zmdi-view-web:before{content:&#39;\f326&#39;}.zmdi-view-week:before{content:&#39;\f327&#39;}.zmdi-widgets:before{content:&#39;\f328&#39;}.zmdi-alarm-check:before{content:&#39;\f329&#39;}.zmdi-alarm-off:before{content:&#39;\f32a&#39;}.zmdi-alarm-plus:before{content:&#39;\f32b&#39;}.zmdi-alarm-snooze:before{content:&#39;\f32c&#39;}.zmdi-alarm:before{content:&#39;\f32d&#39;}.zmdi-calendar-alt:before{content:&#39;\f32e&#39;}.zmdi-calendar-check:before{content:&#39;\f32f&#39;}.zmdi-calendar-close:before{content:&#39;\f330&#39;}.zmdi-calendar-note:before{content:&#39;\f331&#39;}.zmdi-calendar:before{content:&#39;\f332&#39;}.zmdi-time-countdown:before{content:&#39;\f333&#39;}.zmdi-time-interval:before{content:&#39;\f334&#39;}.zmdi-time-restore-setting:before{content:&#39;\f335&#39;}.zmdi-time-restore:before{content:&#39;\f336&#39;}.zmdi-time:before{content:&#39;\f337&#39;}.zmdi-timer-off:before{content:&#39;\f338&#39;}.zmdi-timer:before{content:&#39;\f339&#39;}.zmdi-android-alt:before{content:&#39;\f33a&#39;}.zmdi-android:before{content:&#39;\f33b&#39;}.zmdi-apple:before{content:&#39;\f33c&#39;}.zmdi-behance:before{content:&#39;\f33d&#39;}.zmdi-codepen:before{content:&#39;\f33e&#39;}.zmdi-dribbble:before{content:&#39;\f33f&#39;}.zmdi-dropbox:before{content:&#39;\f340&#39;}.zmdi-evernote:before{content:&#39;\f341&#39;}.zmdi-facebook-box:before{content:&#39;\f342&#39;}.zmdi-facebook:before{content:&#39;\f343&#39;}.zmdi-github-box:before{content:&#39;\f344&#39;}.zmdi-github:before{content:&#39;\f345&#39;}.zmdi-google-drive:before{content:&#39;\f346&#39;}.zmdi-google-earth:before{content:&#39;\f347&#39;}.zmdi-google-glass:before{content:&#39;\f348&#39;}.zmdi-google-maps:before{content:&#39;\f349&#39;}.zmdi-google-pages:before{content:&#39;\f34a&#39;}.zmdi-google-play:before{content:&#39;\f34b&#39;}.zmdi-google-plus-box:before{content:&#39;\f34c&#39;}.zmdi-google-plus:before{content:&#39;\f34d&#39;}.zmdi-google:before{content:&#39;\f34e&#39;}.zmdi-instagram:before{content:&#39;\f34f&#39;}.zmdi-language-css3:before{content:&#39;\f350&#39;}.zmdi-language-html5:before{content:&#39;\f351&#39;}.zmdi-language-javascript:before{content:&#39;\f352&#39;}.zmdi-language-python-alt:before{content:&#39;\f353&#39;}.zmdi-language-python:before{content:&#39;\f354&#39;}.zmdi-lastfm:before{content:&#39;\f355&#39;}.zmdi-linkedin-box:before{content:&#39;\f356&#39;}.zmdi-paypal:before{content:&#39;\f357&#39;}.zmdi-pinterest-box:before{content:&#39;\f358&#39;}.zmdi-pocket:before{content:&#39;\f359&#39;}.zmdi-polymer:before{content:&#39;\f35a&#39;}.zmdi-share:before{content:&#39;\f35b&#39;}.zmdi-stack-overflow:before{content:&#39;\f35c&#39;}.zmdi-steam-square:before{content:&#39;\f35d&#39;}.zmdi-steam:before{content:&#39;\f35e&#39;}.zmdi-twitter-box:before{content:&#39;\f35f&#39;}.zmdi-twitter:before{content:&#39;\f360&#39;}.zmdi-vk:before{content:&#39;\f361&#39;}.zmdi-wikipedia:before{content:&#39;\f362&#39;}.zmdi-windows:before{content:&#39;\f363&#39;}.zmdi-aspect-ratio-alt:before{content:&#39;\f364&#39;}.zmdi-aspect-ratio:before{content:&#39;\f365&#39;}.zmdi-blur-circular:before{content:&#39;\f366&#39;}.zmdi-blur-linear:before{content:&#39;\f367&#39;}.zmdi-blur-off:before{content:&#39;\f368&#39;}.zmdi-blur:before{content:&#39;\f369&#39;}.zmdi-brightness-2:before{content:&#39;\f36a&#39;}.zmdi-brightness-3:before{content:&#39;\f36b&#39;}.zmdi-brightness-4:before{content:&#39;\f36c&#39;}.zmdi-brightness-5:before{content:&#39;\f36d&#39;}.zmdi-brightness-6:before{content:&#39;\f36e&#39;}.zmdi-brightness-7:before{content:&#39;\f36f&#39;}.zmdi-brightness-auto:before{content:&#39;\f370&#39;}.zmdi-brightness-setting:before{content:&#39;\f371&#39;}.zmdi-broken-image:before{content:&#39;\f372&#39;}.zmdi-center-focus-strong:before{content:&#39;\f373&#39;}.zmdi-center-focus-weak:before{content:&#39;\f374&#39;}.zmdi-compare:before{content:&#39;\f375&#39;}.zmdi-crop-16-9:before{content:&#39;\f376&#39;}.zmdi-crop-3-2:before{content:&#39;\f377&#39;}.zmdi-crop-5-4:before{content:&#39;\f378&#39;}.zmdi-crop-7-5:before{content:&#39;\f379&#39;}.zmdi-crop-din:before{content:&#39;\f37a&#39;}.zmdi-crop-free:before{content:&#39;\f37b&#39;}.zmdi-crop-landscape:before{content:&#39;\f37c&#39;}.zmdi-crop-portrait:before{content:&#39;\f37d&#39;}.zmdi-crop-square:before{content:&#39;\f37e&#39;}.zmdi-exposure-alt:before{content:&#39;\f37f&#39;}.zmdi-exposure:before{content:&#39;\f380&#39;}.zmdi-filter-b-and-w:before{content:&#39;\f381&#39;}.zmdi-filter-center-focus:before{content:&#39;\f382&#39;}.zmdi-filter-frames:before{content:&#39;\f383&#39;}.zmdi-filter-tilt-shift:before{content:&#39;\f384&#39;}.zmdi-gradient:before{content:&#39;\f385&#39;}.zmdi-grain:before{content:&#39;\f386&#39;}.zmdi-graphic-eq:before{content:&#39;\f387&#39;}.zmdi-hdr-off:before{content:&#39;\f388&#39;}.zmdi-hdr-strong:before{content:&#39;\f389&#39;}.zmdi-hdr-weak:before{content:&#39;\f38a&#39;}.zmdi-hdr:before{content:&#39;\f38b&#39;}.zmdi-iridescent:before{content:&#39;\f38c&#39;}.zmdi-leak-off:before{content:&#39;\f38d&#39;}.zmdi-leak:before{content:&#39;\f38e&#39;}.zmdi-looks:before{content:&#39;\f38f&#39;}.zmdi-loupe:before{content:&#39;\f390&#39;}.zmdi-panorama-horizontal:before{content:&#39;\f391&#39;}.zmdi-panorama-vertical:before{content:&#39;\f392&#39;}.zmdi-panorama-wide-angle:before{content:&#39;\f393&#39;}.zmdi-photo-size-select-large:before{content:&#39;\f394&#39;}.zmdi-photo-size-select-small:before{content:&#39;\f395&#39;}.zmdi-picture-in-picture:before{content:&#39;\f396&#39;}.zmdi-slideshow:before{content:&#39;\f397&#39;}.zmdi-texture:before{content:&#39;\f398&#39;}.zmdi-tonality:before{content:&#39;\f399&#39;}.zmdi-vignette:before{content:&#39;\f39a&#39;}.zmdi-wb-auto:before{content:&#39;\f39b&#39;}.zmdi-eject-alt:before{content:&#39;\f39c&#39;}.zmdi-eject:before{content:&#39;\f39d&#39;}.zmdi-equalizer:before{content:&#39;\f39e&#39;}.zmdi-fast-forward:before{content:&#39;\f39f&#39;}.zmdi-fast-rewind:before{content:&#39;\f3a0&#39;}.zmdi-forward-10:before{content:&#39;\f3a1&#39;}.zmdi-forward-30:before{content:&#39;\f3a2&#39;}.zmdi-forward-5:before{content:&#39;\f3a3&#39;}.zmdi-hearing:before{content:&#39;\f3a4&#39;}.zmdi-pause-circle-outline:before{content:&#39;\f3a5&#39;}.zmdi-pause-circle:before{content:&#39;\f3a6&#39;}.zmdi-pause:before{content:&#39;\f3a7&#39;}.zmdi-play-circle-outline:before{content:&#39;\f3a8&#39;}.zmdi-play-circle:before{content:&#39;\f3a9&#39;}.zmdi-play:before{content:&#39;\f3aa&#39;}.zmdi-playlist-audio:before{content:&#39;\f3ab&#39;}.zmdi-playlist-plus:before{content:&#39;\f3ac&#39;}.zmdi-repeat-one:before{content:&#39;\f3ad&#39;}.zmdi-repeat:before{content:&#39;\f3ae&#39;}.zmdi-replay-10:before{content:&#39;\f3af&#39;}.zmdi-replay-30:before{content:&#39;\f3b0&#39;}.zmdi-replay-5:before{content:&#39;\f3b1&#39;}.zmdi-replay:before{content:&#39;\f3b2&#39;}.zmdi-shuffle:before{content:&#39;\f3b3&#39;}.zmdi-skip-next:before{content:&#39;\f3b4&#39;}.zmdi-skip-previous:before{content:&#39;\f3b5&#39;}.zmdi-stop:before{content:&#39;\f3b6&#39;}.zmdi-surround-sound:before{content:&#39;\f3b7&#39;}.zmdi-tune:before{content:&#39;\f3b8&#39;}.zmdi-volume-down:before{content:&#39;\f3b9&#39;}.zmdi-volume-mute:before{content:&#39;\f3ba&#39;}.zmdi-volume-off:before{content:&#39;\f3bb&#39;}.zmdi-volume-up:before{content:&#39;\f3bc&#39;}.zmdi-n-1-square:before{content:&#39;\f3bd&#39;}.zmdi-n-2-square:before{content:&#39;\f3be&#39;}.zmdi-n-3-square:before{content:&#39;\f3bf&#39;}.zmdi-n-4-square:before{content:&#39;\f3c0&#39;}.zmdi-n-5-square:before{content:&#39;\f3c1&#39;}.zmdi-n-6-square:before{content:&#39;\f3c2&#39;}.zmdi-neg-1:before{content:&#39;\f3c3&#39;}.zmdi-neg-2:before{content:&#39;\f3c4&#39;}.zmdi-plus-1:before{content:&#39;\f3c5&#39;}.zmdi-plus-2:before{content:&#39;\f3c6&#39;}.zmdi-sec-10:before{content:&#39;\f3c7&#39;}.zmdi-sec-3:before{content:&#39;\f3c8&#39;}.zmdi-zero:before{content:&#39;\f3c9&#39;}.zmdi-airline-seat-flat-angled:before{content:&#39;\f3ca&#39;}.zmdi-airline-seat-flat:before{content:&#39;\f3cb&#39;}.zmdi-airline-seat-individual-suite:before{content:&#39;\f3cc&#39;}.zmdi-airline-seat-legroom-extra:before{content:&#39;\f3cd&#39;}.zmdi-airline-seat-legroom-normal:before{content:&#39;\f3ce&#39;}.zmdi-airline-seat-legroom-reduced:before{content:&#39;\f3cf&#39;}.zmdi-airline-seat-recline-extra:before{content:&#39;\f3d0&#39;}.zmdi-airline-seat-recline-normal:before{content:&#39;\f3d1&#39;}.zmdi-airplay:before{content:&#39;\f3d2&#39;}.zmdi-closed-caption:before{content:&#39;\f3d3&#39;}.zmdi-confirmation-number:before{content:&#39;\f3d4&#39;}.zmdi-developer-board:before{content:&#39;\f3d5&#39;}.zmdi-disc-full:before{content:&#39;\f3d6&#39;}.zmdi-explicit:before{content:&#39;\f3d7&#39;}.zmdi-flight-land:before{content:&#39;\f3d8&#39;}.zmdi-flight-takeoff:before{content:&#39;\f3d9&#39;}.zmdi-flip-to-back:before{content:&#39;\f3da&#39;}.zmdi-flip-to-front:before{content:&#39;\f3db&#39;}.zmdi-group-work:before{content:&#39;\f3dc&#39;}.zmdi-hd:before{content:&#39;\f3dd&#39;}.zmdi-hq:before{content:&#39;\f3de&#39;}.zmdi-markunread-mailbox:before{content:&#39;\f3df&#39;}.zmdi-memory:before{content:&#39;\f3e0&#39;}.zmdi-nfc:before{content:&#39;\f3e1&#39;}.zmdi-play-for-work:before{content:&#39;\f3e2&#39;}.zmdi-power-input:before{content:&#39;\f3e3&#39;}.zmdi-present-to-all:before{content:&#39;\f3e4&#39;}.zmdi-satellite:before{content:&#39;\f3e5&#39;}.zmdi-tap-and-play:before{content:&#39;\f3e6&#39;}.zmdi-vibration:before{content:&#39;\f3e7&#39;}.zmdi-voicemail:before{content:&#39;\f3e8&#39;}.zmdi-import-export:before{content:&#39;\f30c&#39;}.zmdi-swap-vertical-:before{content:&#39;\f30c&#39;}.zmdi-airplanemode-inactive:before{content:&#39;\f102&#39;}.zmdi-airplanemode-active:before{content:&#39;\f103&#39;}.zmdi-rate-review:before{content:&#39;\f103&#39;}.zmdi-comment-sign:before{content:&#39;\f25a&#39;}.zmdi-network-warning:before{content:&#39;\f2ad&#39;}.zmdi-shopping-cart-add:before{content:&#39;\f1ca&#39;}.zmdi-file-add:before{content:&#39;\f221&#39;}.zmdi-network-wifi-scan:before{content:&#39;\f2e4&#39;}.zmdi-collection-add:before{content:&#39;\f14e&#39;}.zmdi-format-playlist-add:before{content:&#39;\f3ac&#39;}.zmdi-format-queue-music:before{content:&#39;\f3ab&#39;}.zmdi-plus-box:before{content:&#39;\f277&#39;}.zmdi-tag-backspace:before{content:&#39;\f1d9&#39;}.zmdi-alarm-add:before{content:&#39;\f32b&#39;}.zmdi-battery-charging:before{content:&#39;\f114&#39;}.zmdi-daydream-setting:before{content:&#39;\f217&#39;}.zmdi-more-horiz:before{content:&#39;\f19c&#39;}.zmdi-book-photo:before{content:&#39;\f11b&#39;}.zmdi-incandescent:before{content:&#39;\f189&#39;}.zmdi-wb-iridescent:before{content:&#39;\f38c&#39;}.zmdi-calendar-remove:before{content:&#39;\f330&#39;}.zmdi-refresh-sync-disabled:before{content:&#39;\f1b7&#39;}.zmdi-refresh-sync-problem:before{content:&#39;\f1b6&#39;}.zmdi-crop-original:before{content:&#39;\f17e&#39;}.zmdi-power-off:before{content:&#39;\f1af&#39;}.zmdi-power-off-setting:before{content:&#39;\f1ae&#39;}.zmdi-leak-remove:before{content:&#39;\f38d&#39;}.zmdi-star-border:before{content:&#39;\f27c&#39;}.zmdi-brightness-low:before{content:&#39;\f36d&#39;}.zmdi-brightness-medium:before{content:&#39;\f36e&#39;}.zmdi-brightness-high:before{content:&#39;\f36f&#39;}.zmdi-smartphone-portrait:before{content:&#39;\f2d4&#39;}.zmdi-live-tv:before{content:&#39;\f2d9&#39;}.zmdi-format-textdirection-l-to-r:before{content:&#39;\f249&#39;}.zmdi-format-textdirection-r-to-l:before{content:&#39;\f24a&#39;}.zmdi-arrow-back:before{content:&#39;\f2ea&#39;}.zmdi-arrow-forward:before{content:&#39;\f2ee&#39;}.zmdi-arrow-in:before{content:&#39;\f2e9&#39;}.zmdi-arrow-out:before{content:&#39;\f2ed&#39;}.zmdi-rotate-90-degrees-ccw:before{content:&#39;\f304&#39;}.zmdi-adb:before{content:&#39;\f33a&#39;}.zmdi-network-wifi:before{content:&#39;\f2e8&#39;}.zmdi-network-wifi-alt:before{content:&#39;\f2e3&#39;}.zmdi-network-wifi-lock:before{content:&#39;\f2e5&#39;}.zmdi-network-wifi-off:before{content:&#39;\f2e6&#39;}.zmdi-network-wifi-outline:before{content:&#39;\f2e7&#39;}.zmdi-network-wifi-info:before{content:&#39;\f2e4&#39;}.zmdi-layers-clear:before{content:&#39;\f18b&#39;}.zmdi-colorize:before{content:&#39;\f15d&#39;}.zmdi-format-paint:before{content:&#39;\f1ba&#39;}.zmdi-format-quote:before{content:&#39;\f1b2&#39;}.zmdi-camera-monochrome-photos:before{content:&#39;\f285&#39;}.zmdi-sort-by-alpha:before{content:&#39;\f1cf&#39;}.zmdi-folder-shared:before{content:&#39;\f225&#39;}.zmdi-folder-special:before{content:&#39;\f226&#39;}.zmdi-comment-dots:before{content:&#39;\f260&#39;}.zmdi-reorder:before{content:&#39;\f31e&#39;}.zmdi-dehaze:before{content:&#39;\f197&#39;}.zmdi-sort:before{content:&#39;\f1ce&#39;}.zmdi-pages:before{content:&#39;\f34a&#39;}.zmdi-calendar-account:before{content:&#39;\f204&#39;}.zmdi-paste:before{content:&#39;\f109&#39;}.zmdi-cut:before{content:&#39;\f1bc&#39;}.zmdi-save:before{content:&#39;\f297&#39;}.zmdi-smartphone-code:before{content:&#39;\f139&#39;}.zmdi-directions-bike:before{content:&#39;\f117&#39;}.zmdi-directions-boat:before{content:&#39;\f11a&#39;}.zmdi-directions-bus:before{content:&#39;\f121&#39;}.zmdi-directions-car:before{content:&#39;\f125&#39;}.zmdi-directions-railway:before{content:&#39;\f1b3&#39;}.zmdi-directions-run:before{content:&#39;\f215&#39;}.zmdi-directions-subway:before{content:&#39;\f1d5&#39;}.zmdi-directions-walk:before{content:&#39;\f216&#39;}.zmdi-local-hotel:before{content:&#39;\f178&#39;}.zmdi-local-activity:before{content:&#39;\f1df&#39;}.zmdi-local-play:before{content:&#39;\f1df&#39;}.zmdi-local-airport:before{content:&#39;\f103&#39;}.zmdi-local-atm:before{content:&#39;\f198&#39;}.zmdi-local-bar:before{content:&#39;\f137&#39;}.zmdi-local-cafe:before{content:&#39;\f13b&#39;}.zmdi-local-car-wash:before{content:&#39;\f124&#39;}.zmdi-local-convenience-store:before{content:&#39;\f1d3&#39;}.zmdi-local-dining:before{content:&#39;\f153&#39;}.zmdi-local-drink:before{content:&#39;\f157&#39;}.zmdi-local-florist:before{content:&#39;\f168&#39;}.zmdi-local-gas-station:before{content:&#39;\f16f&#39;}.zmdi-local-grocery-store:before{content:&#39;\f1cb&#39;}.zmdi-local-hospital:before{content:&#39;\f177&#39;}.zmdi-local-laundry-service:before{content:&#39;\f1e9&#39;}.zmdi-local-library:before{content:&#39;\f18d&#39;}.zmdi-local-mall:before{content:&#39;\f195&#39;}.zmdi-local-movies:before{content:&#39;\f19d&#39;}.zmdi-local-offer:before{content:&#39;\f187&#39;}.zmdi-local-parking:before{content:&#39;\f1a5&#39;}.zmdi-local-parking:before{content:&#39;\f1a5&#39;}.zmdi-local-pharmacy:before{content:&#39;\f176&#39;}.zmdi-local-phone:before{content:&#39;\f2be&#39;}.zmdi-local-pizza:before{content:&#39;\f1ac&#39;}.zmdi-local-post-office:before{content:&#39;\f15a&#39;}.zmdi-local-printshop:before{content:&#39;\f1b0&#39;}.zmdi-local-see:before{content:&#39;\f28c&#39;}.zmdi-local-shipping:before{content:&#39;\f1e6&#39;}.zmdi-local-store:before{content:&#39;\f1d4&#39;}.zmdi-local-taxi:before{content:&#39;\f123&#39;}.zmdi-local-wc:before{content:&#39;\f211&#39;}.zmdi-my-location:before{content:&#39;\f299&#39;}.zmdi-directions:before{content:&#39;\f1e7&#39;}</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM13 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
+        <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/Day8/re-com/blame/c76b5e56005a1dd93e8fc61ead11f0821b037392/run/resources/public/assets/css/material-design-iconic-font.min.css">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/Day8/re-com/issues/new">Open new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
+  </div>
+
+  </div>
+
+  <details class="details-reset details-overlay details-overlay-dark">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.33534s from unicorn-239918585-tq1qw">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-2VdGgXQE8W5ONZ4OsrbEo/noennUZaqXkevD9R8juTHiCsjT0HFTTF6MoBfySUc8G+eFqUcDgd7v+CAu8Gjxlg==" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-f849c975b0ffaa01d6ca305e48417d08.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-Swe7kfA0LYlT3FJ/ke9bPeUkLzJicE/ZxqOlslN1BTzsmekU9LCRmkEhprM8P9jyIT1PPZnHu/8tNM5k6JstFg==" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-000e724656d8b68c57faba0b6d80278a.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-iK04uvFyMwXxWLbY/eleTk1H7shOe5W3V3LhirjsdmqMRoFuwWN1MHovDavK+Gm5INFyv+LiG32Aeui7DZk+/g==" type="application/javascript" src="https://assets-cdn.github.com/assets/github-ca5c0c6b6a11f4b7ad8aa92f3a2a45d4.js"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
+    <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast">
+      <button class="m-3 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+</html>
+
