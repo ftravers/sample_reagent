@@ -24,10 +24,10 @@
 
 (defn qry []
   (d/q
-   '[:find (pull ?e [:user/name]) 
+   '[:find (pull ?e [:user/name {:cars [:car/name]}]) 
      :where
      [?e :user/name]]
-   @conn))
+   @conn the-qry))
 
 (d/q '[:find (pull ?e [:db/id]) 
        :where
