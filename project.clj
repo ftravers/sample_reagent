@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [reagent "0.7.0"]
                  [hiccup "1.0.5"]
+                 [datascript "0.16.7"]
                  [org.clojure/clojurescript "1.9.946"]]
 
   :source-paths ["src/cljs"]
@@ -21,9 +22,9 @@
   {:builds
    [{:id "dev"
      :source-paths ["src/cljs"]
-     :figwheel {:on-jsload "sample-reagent.core/on-js-reload"
+     :figwheel {:on-jsload "sample-reagent.view/on-js-reload"
                 :open-urls ["http://localhost:3449/index.html"]}
-     :compiler {:main sample-reagent.core
+     :compiler {:main sample-reagent.view
                 :asset-path "js/compiled/out"
                 :output-to "resources/public/js/compiled/sample_reagent.js"
                 :output-dir "resources/public/js/compiled/out"
@@ -35,5 +36,5 @@
                              [figwheel-sidecar "0.5.13"]
                              [com.cemerick/piggieback "0.2.2"]]
 
-              :plugins [[cider/cider-nrepl "0.16.0-SNAPSHOT"]]
+              ;; :plugins [[cider/cider-nrepl "0.16.0-SNAPSHOT"]]
               :repl-options {:nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
