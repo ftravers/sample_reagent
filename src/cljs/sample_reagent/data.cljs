@@ -22,12 +22,14 @@
                     :user/name "Fenton"
                     :cars [-4 -5]}]) 
 
-(defn qry []
+;; (q2 [:user/name])
+
+(defn q2 [x]
   (d/q
-   '[:find (pull ?e [:user/name {:cars [:car/name]}]) 
-     :where
-     [?e :user/name]]
-   @conn the-qry))
+   '[:find (pull ?e x)
+     :in $ x
+     :where [?e :user/name]]
+   @conn x))
 
 (d/q '[:find (pull ?e [:db/id]) 
        :where

@@ -3,9 +3,6 @@
    [reagent.core :as reagent]
    [sample-reagent.data :as data]))
 
-;; (mapv #(-> % first :user/name) res)
-
-;; [#:car{:name "toyota tacoma"} #:car{:name "bmw 325xi"}]
 (def d1
   [{:user/name "Peter",
     :cars [#:car {:name "honda civic"} #:car {:name "honda prelude"}]}
@@ -15,20 +12,21 @@
 (defn cars [the-cars]
   [:ul (map (fn [acar] [:li (:car/name acar)]) the-cars)])
 
+(defn big-query []
+  (data/q2 [:user/name {:cars [:car/name]}]))
+
 (defn users [the-data]
   [:ul
-   (map (fn [user]
-          [:li (:user/name user)
-            [cars (:cars user)]
-           ])
-        the-data)])
+   (map
+    (fn [user]
+      [:li (-> user first :user/name)
+       [cars (-> user first :cars)]])
+    the-data)])
 
 (defn on-js-reload []
   (reagent/render
-   ;; [cars (-> d1 first :cars)]
-   [users d1]
+   [users (big-query)]
    (.getElementById js/document "app")))
 (defn ^:export main []
   (on-js-reload))
 (on-js-reload)
-
