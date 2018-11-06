@@ -3,12 +3,6 @@
    [reagent.core :as reagent]
    [sample-reagent.data :as data]))
 
-(def d1
-  [{:user/name "Peter",
-    :cars [#:car {:name "honda civic"} #:car {:name "honda prelude"}]}
-   {:user/name "Fenton",
-    :cars [#:car {:name "toyota tacoma"} #:car {:name "bmw 325xi"}]}])
-
 (defn cars [the-cars]
   [:ul (map (fn [acar] [:li (:car/name acar)]) the-cars)])
 
